@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Programme de calendrier, similaire au 'cal' sur UNIX
+End

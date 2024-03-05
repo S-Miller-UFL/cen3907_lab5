@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Le pilote de souris pour FreeDOS
+Keywords:       Souris, roulette
+End

@@ -1,0 +1,7 @@
+Begin3
+Language:       fr, 850
+New:            *
+Description:    Un jeu trŠs ancien, datant de l'gypte antique
+Summary:        Senet est un jeu trŠs ancien, datant de l'gypte antique. Parce qu'il est si ancien et que personne dans l'gypte antique n'a pr‚serv‚ les rŠgles pour les g‚n‚rations futures, les rŠgles exactes sont un peu un mystŠre. Les historiens ont essay‚ de comprendre les rŠgles de Senet, mais ils ne sont pas d'accord sur les d‚tails.
+Keywords:       jeux
+End

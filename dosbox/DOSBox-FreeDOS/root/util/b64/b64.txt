@@ -1,0 +1,77 @@
+This is not a real documentation, but only a short extract from the source code.
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+AUTHOR:         Bob Trower 08/04/01
+
+PROJECT:        Crypt Data Packaging
+
+COPYRIGHT:      Copyright (c) Trantor Standard Systems Inc., 2001
+
+NOTES:          This source code may be used as you wish, subject to
+                the MIT license.  See the LICENCE section below.
+
+                Canonical source should be at:
+                    http://base64.sourceforge.net
+
+DESCRIPTION:
+                This little utility implements the Base64
+                Content-Transfer-Encoding standard described in
+                RFC1113 (http://www.faqs.org/rfcs/rfc1113.html).
+
+                This is the coding scheme used by MIME to allow
+                binary data to be transferred by SMTP mail.
+
+                Groups of 3 bytes from a binary stream are coded as
+                groups of 4 bytes in a text stream.
+
+                The input stream is 'padded' with zeros to create
+                an input that is an even multiple of 3.
+
+                A special character ('=') is used to denote padding so
+                that the stream can be decoded back to its exact size.
+
+                Encoded output is formatted in lines which should
+                be a maximum of 72 characters to conform to the
+                specification.  This program defaults to 72 characters,
+                but will allow more or less through the use of a
+                switch.  The program enforces a minimum line size
+                of 4 characters.
+
+                Example encoding:
+
+                The stream 'ABCD' is 32 bits long.  It is mapped as
+                follows:
+
+                ABCD
+
+                 A (65)     B (66)     C (67)     D (68)   (None) (None)
+                01000001   01000010   01000011   01000100
+
+                16 (Q)  20 (U)  9 (J)   3 (D)    17 (R) 0 (A)  NA (=) NA (=)
+                010000  010100  001001  000011   010001 000000 000000 000000
+
+
+                QUJDRA==
+
+                Decoding is the process in reverse.  A 'decode' lookup
+                table has been created to avoid string scans.
+
+DESIGN GOALS:   Specifically:
+                Code is a stand-alone utility to perform base64 
+                encoding/decoding. It should be genuinely useful 
+                when the need arises and it meets a need that is 
+                likely to occur for some users.  
+                Code acts as sample code to show the author's 
+                design and coding style.  
+
+                Generally: 
+                This program is designed to survive:
+                Everything you need is in a single source file.
+                It compiles cleanly using a vanilla ANSI C compiler.
+                It does its job correctly with a minimum of fuss.  
+                The code is not overly clever, not overly simplistic 
+                and not overly verbose. 
+                Access is 'cut and paste' from a web page.  
+                Terms of use are reasonable.  
+

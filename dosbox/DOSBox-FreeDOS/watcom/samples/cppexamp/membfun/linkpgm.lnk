@@ -1,0 +1,5 @@
+NAME    test
+OPTION  quiet, eliminate, map, show
+DEBUG   all
+FILE    main.obj
+FILE    cfun.obj

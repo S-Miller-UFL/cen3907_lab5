@@ -1,0 +1,41 @@
+Freemacs is a programmable editor.  The .EXE file is only 21K because
+it only contains a language interpreter and text editor primitives.  The
+bulk of the programming is done in MINT, which is a string-oriented
+language.  Freemacs is yet another Emacs clone.  Emacs was first written
+at MIT by Richard M. Stallman.
+
+There are a number of Emacs clones for the PC available.  Freemacs
+has three distinguishing characteristics:
+
+o Freemacs is free, and it was designed from the start to be programmable.
+o Freemacs is the only IBM-PC editor that tries to be like GNU Emacs.
+o Freemacs can only edit files less than 64K in length.
+
+You may freely copy this software.  I only ask that you send improvements
+back to me for incorporation into the package for the rest of us.  The
+distribution is available from one or more of the following sources:
+
+
+* ftp://ftp.isd.net/jhall1/freedos/
+
+  Freemacs is now distributed as part of the FreeDOS Project.  Jim
+  Hall will be folding new fixes into Freemacs.  His email address is
+  jhall1@isd.net and his web site is http://www.isd.net/jhall1/
+
+
+* any simtel mirror
+
+  Look in the msdos/freemacs directory for the latest Freemacs.
+  We'll continue to upload to these sites.
+
+
+* Or else send $15 (copying fee) to the author.  This will assure you of the
+  latest version.  Please specify floppy format:
+
+  5.25", 1.2 Meg
+  5.25", 360K
+  3.50", 720K
+
+  Russell Nelson
+  11 Grant St.
+  Potsdam, NY 13676

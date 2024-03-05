@@ -1,0 +1,8 @@
+Begin3
+Language:       de, 858
+Description:    Fixed Disk Tool - Partitionen erstellen
+Keywords:       fdisk, format, hard drive, Festplatte, fat16, fat32, partition, mbr
+Maintained-by:  Brian E. Reifsnyder <breifsnyde -at- state.pa.us>
+Primary-site:   http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/fdisk/
+Alternate-site: www.freedos.org
+End

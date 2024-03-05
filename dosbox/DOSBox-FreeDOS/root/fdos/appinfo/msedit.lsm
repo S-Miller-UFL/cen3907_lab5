@@ -1,0 +1,15 @@
+Begin3
+Title:          MSEDIT
+Version:        0.11a
+Entered-date:   2012-09-22
+Description:    Mateusz' Saucy Editor
+Keywords:       text editor
+Author:         Mateusz Viste
+Maintained-by:  
+Primary-site:   http://sourceforge.net/projects/msedit/
+Alternate-site: Alternate-site
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

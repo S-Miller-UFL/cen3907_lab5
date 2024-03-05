@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Pilote FreeDOS pour la gestion des pages de codes (‚cran ou imprimante)
+Keywords:       affichage, ega, vga, nls, cpi, cpx
+End

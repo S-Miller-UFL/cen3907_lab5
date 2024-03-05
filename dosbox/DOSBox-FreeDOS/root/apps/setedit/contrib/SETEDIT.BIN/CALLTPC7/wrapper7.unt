@@ -1,0 +1,173 @@
+{*****************************************************************************
+* Unit belongs to program: CallTPC7 by Andreas Leidner
+* Author(s): Andreas Leidner
+* File Created: 28.09.1999
+* File Last Modified: 28.09.1999 21:20
+* Unit's Description: This unit contains the important functions for the
+*		 CallTPC7 program.
+*****************************************************************************}
+unit Wrapper7;
+
+interface
+
+	uses Crt, Dos;
+
+    const
+	     version = '0.01';
+         ArrayLength = 9;
+         tpcOutput_filename = 'c:\tpcout.put';
+
+    var
+       tpcErrors, FSFErrors: array[0..ArrayLength] of string; { the first 10 errors are stored here. }
+
+    procedure PrintHelpAndVersion;
+    procedure Initialize;
+              { Initialize the arrays and all other variables. }
+    function ReverseString(AString: string): string;
+              { This function's result is AString reversed. }
+    function RPos(substring, wholestring: string): integer;
+              { This function finds a substring in another string like
+                the pos function but it begins the search from the right.
+                The result is the position of the first character's occurrence
+                of substring in wholestring (the position in wholestring from the left).
+                The result is zero if substring can't be found in wholestring. }
+    function CallCompiler: Boolean;
+              { Result: True if compiler was executed successfully, else False. }
+    function GetCompilerErrors(var ArrayOfErrors: array of string): Boolean;
+              { Result is True if file could be accessed, else False. }
+    procedure ConvertToFSF(ArrayOfErrors: array of string; var ArrayOfFSFErrors: array of string);
+              { Converts the errors given by the Borland Turbo Pascal Compiler 7.x
+                to the FSF error format: filename:linenumber:errormessage }
+    procedure OutputFSF(ArrayOfFSFErrors: array of string);
+              { writes each FSF error in one line to the standard output. }
+
+implementation
+
+    procedure PrintHelpAndVersion;
+    begin
+	     Writeln;
+	     Writeln('CallTPC7, version ',version);
+	     Writeln('Written by Andreas Leidner (leidner@gmx.net), 1999');
+	     Writeln;
+         Writeln('CallTPC7 is a wrapper for the Borland Turbo Pascal Compiler Version 7.x');
+         Writeln('for MS-DOS. It calls the compiler tpc.exe to compile the file given as');
+	     Writeln('the first parameter on the command-line. Then it collects the compiler''s');
+	     Writeln('output and writes the error messages in the FSF error format to the');
+	     Writeln('standard output.');
+	     Writeln;
+	     Writeln('Usage: CallTPC7 <PascalFilename.pas> [ <compiler-commandline-options> ]');
+	     Writeln
+    end; { procedure }
+
+    procedure Initialize;
+    var
+       i: integer;
+    begin
+	     for i := 0 to ArrayLength do begin
+		     tpcErrors[i] := '';
+		     FSFErrors[i] := ''
+         end { for }
+    end; { procedure }
+
+    function ReverseString(AString: string): string;
+    var
+       i,k: integer;
+       temp: string;
+    begin
+	     ReverseString := ''; temp := AString;
+	     i := 0; k := Length(AString)+1;
+	     repeat
+		       inc(i); dec(k);
+		       temp[i] := AString[k];
+         until i = Length(AString);
+	     ReverseString := temp;
+    end; { function }
+
+    function RPos(substring, wholestring: string): integer;
+    var
+       sub_r, whole_r: string;
+       position: integer;
+    begin
+	     RPos := 0;
+	     sub_r := ReverseString(substring);
+	     whole_r := ReverseString(wholestring);
+	     position := pos(sub_r,whole_r);
+	     if position <> 0 then
+		    RPos := Length(whole_r) - position + 1
+    end; { function }
+
+    function CallCompiler: Boolean;
+    var
+       i: integer;
+       parameters: string;
+    begin
+         CallCompiler := False;
+	     parameters := ' ';
+	     if ParamCount > 1 then
+	        for i := 2 to ParamCount do
+		        parameters := ParamStr(i) + ' ';
+         SwapVectors;
+         Exec(GetEnv('COMSPEC'),'/C tpc.exe ' + ParamStr(1) + parameters + '> ' + tpcOutput_filename);
+         SwapVectors;
+         if DosError = 0 then { = no error. }
+		    CallCompiler := True
+    end; { function }
+
+    function GetCompilerErrors(var ArrayOfErrors: array of string): Boolean;
+    var
+       f: Text;
+       CurrentLine: string;
+       i: integer;
+    begin
+	     GetCompilerErrors := False;
+         {$I-}
+         Assign(f,tpcOutput_filename);
+         Reset(f); { open for read operations and set position in file to zero. }
+         if IOResult = 0 then { = no errors while opening file. }
+		    GetCompilerErrors := True;
+         {$I+}
+	     i := 0;
+         while not EOF(f) do begin
+               Readln(f, CurrentLine);
+		       if (i <= ArrayLength) and (pos('Error',CurrentLine) <> 0) then
+			      { only store the first <ArrayLength> errors and store only lines that are error lines. }
+		          ArrayOfErrors[i] := CurrentLine;
+               inc(i)
+         end; { while }
+         Close(f)
+    end; { function }
+
+    procedure ConvertToFSF(ArrayOfErrors: array of string; var ArrayOfFSFErrors: array of string);
+    var
+       i: integer;
+       Filename, ErrorMessage, Line: string;
+    begin
+         for i := 0 to ArrayLength do begin
+	         if ArrayOfErrors[i] <> '' then begin { only try to convert if there are errors. }
+			    Filename := Copy(ArrayOfErrors[i],1,pos('):',ArrayOfErrors[i])+1);
+			    ErrorMessage := Copy(ArrayOfErrors[i],RPos('):',ArrayOfErrors[i])+2,Length(ArrayOfErrors[i]));
+			    { extract the line from filename and modify filename to contain only the filename: }
+                Line := Copy(Filename,RPos('(',Filename)+1,(RPos('):',Filename)-1)-(RPos('(',Filename)+1));
+			    Delete(Filename,RPos('(',Filename),Length(Filename));
+                ArrayOfFSFErrors[i] := Filename + ':' + Line + ':' + ErrorMessage
+             end { if }
+         end { for }
+    end; { procedure }
+
+    procedure OutputFSF(ArrayOfFSFErrors: array of string);
+    var
+       i: integer;
+       f: Text;
+    begin
+	     Assign(f,''); { standard output }
+	     Rewrite(f);
+	     for i := 0 to ArrayLength do
+		     if ArrayOfFSFErrors[i] <> '' then
+			    Writeln(f,ArrayOfFSFErrors[i]);
+		 Writeln(f,'No further errors found. See ',tpcOutput_filename,' for other compiler output.');
+         Close(f);
+    end; { procedure }
+
+begin { unit: main }
+	  { nothing here. }
+end. { unit: main }

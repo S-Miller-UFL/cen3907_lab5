@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Visionneur de fichiers texte avanc‚ prenant en charge UTF-8
+Keywords:       texte, visionneur, UTF-8, UTF8, Unicode, DOS
+End

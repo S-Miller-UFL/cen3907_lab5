@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Wde est un ‚diteur de disques.
+Keywords:       Wde, disque, ‚diteur
+End

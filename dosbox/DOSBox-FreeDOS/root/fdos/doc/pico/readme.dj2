@@ -1,0 +1,42 @@
+Pico is ideally suited for simple editing tasks or uses requiring a fast
+startup time (which makes emacs unwanted). This makes it an excellent
+choice as CVSEDITOR, and a more than acceptable replacement for DOS Edit.
+
+To build pico and pilot, just go to the pico subdirectory and type make.
+The doc subdirectory contains man pages for both programs (both in nroff
+(.1) format and formatted (.man) format).
+
+Changes made:
+-> Greatly increased line buffer size. This means that long lines (like 
+    the LS_COLORS entry in djgpp.env) are no longer broken up.
+-> Using an alternate editor now works. Pressing Ctrl-_ will load up the
+    current file in an alternate editor. This editor is searched in the
+    VISUAL and EDITOR environment variables.
+-> Spell-checking works (provided you have a program that behaves like
+    Unix spell (ie print each badly spelled word from input on output; 1
+    word per line). The spelling checker is searched in the SPELL and
+    SPELLER environment variables before defaulting to 'spell'.
+   Using Ispell is also supported; use of an 'alternate speller' isn't.
+-> Pilot now works under DOS (well, mostly; see below).
+-> Ctrl-Z now works in both pico and pilot.
+-> On startup/shutdown and when shelling out, pico and pilot will save/restore
+    the screen mode and contents (not quite 100% yet).
+-> Added usage text. (-? or -h)
+-> Pico and Pilot now support paths starting with ~.
+-> Use _djgpp_set_ctrl_c instead of int86 to disable Ctrl-C.
+-> Made colors less obnoxious.
+-> Changed the "cute beep" to ScreenVisualBell.
+-> Added support for both / and \ path separators.
+-> NOTE: All files are read as text and written as binary (ie Unix Text)
+    by default. Use 'make DosText=y' to change this behaviour (ie write
+    files in text mode). Either behaviour can kill binary files, so only
+    use pico to edit text files.
+
+Things that don't quite work:
+-> Pilot can only browse a single drive directly (however, you can use
+    GoTo to jump to another drive).
+
+Questions, comments, etc. are happily received at zastai@hotmail.com.
+
+
+   Tim Van Holder (Zastai)

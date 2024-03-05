@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+New:            *
+Description:    Floppy Bird est un clone de l'infƒme Flappy Bird ‚crit en assembleur 16 bits (x86). Pour le dire autrement, il fonctionne sur du m‚tal brut et ne n‚cessite pas un systŠme d'exploitation, il est son propre systŠme d'exploitation.
+End

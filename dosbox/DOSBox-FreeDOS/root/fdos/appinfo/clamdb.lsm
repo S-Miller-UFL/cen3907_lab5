@@ -1,0 +1,15 @@
+Begin3
+Title:          Clam Anti-Virus Database
+Version:        51a
+Entered-date:   2010-02-22
+Description:    The Virus database for ClamAV
+Keywords:       clamav, av, anti-virus, virus, db, database
+Author:         ClamAV Team (www.clamav.net)
+Maintained-by:  ClamAV Team (www.clamav.net)
+Primary-site:   http://gitlab.com/FDOS/util/clamdb
+Original-site:  www.clamav.net
+Platforms:      Platform-independent
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

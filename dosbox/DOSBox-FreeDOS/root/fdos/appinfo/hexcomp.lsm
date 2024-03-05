@@ -1,0 +1,16 @@
+Begin3
+Title:          hexcomp
+Version:        1.0.4a
+Entered-date:   2015-05-13
+Description:    graphically compares binary files
+Keywords:       hex,compare
+Author:         Maelys McCardle
+Maintained-by:  Mateusz Viste
+Primary-site:   
+Alternate-site: 
+Original-site:  http://sourceforge.net/projects/hexcompare/
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 3
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

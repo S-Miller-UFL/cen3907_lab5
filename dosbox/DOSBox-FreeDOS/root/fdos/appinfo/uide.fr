@@ -1,0 +1,6 @@
+Begin3
+Language:       fr, 850
+New:            *
+Description:    Un pilote de mise en cache … usage g‚n‚ral pour les lecteurs DOS, les disquettes, les CD/DVD, les disques SATA et UltraDMA
+Keywords:       ahci, cache, cc, cd, cd-rom, cdrom, disque, dma, driver, eide, floppy, ide, pata, rom, sata, sata, uhdd, uide, ultra
+End

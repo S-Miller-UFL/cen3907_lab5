@@ -1,0 +1,13 @@
+Begin3
+Title:          WDE
+Version:        3.0c
+Entered-date:   2009-02-15
+Description:    Wde is a disk editor.
+Keywords:       Wde, disk, editor
+Author:         Ben Cadieux
+Primary-site:   http://gitlab.com/FDOS/util/wde
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

@@ -1,0 +1,16 @@
+Begin3
+Title:                Biew
+Version:              6.10a
+Entered-date:         2016-04-28
+Description:          Biew is a binary/hexadecimal viewer/editor. (requires i686+)
+Keywords:             Biew, binary, hexadecimal, viewer, editor
+Author:               -
+Maintained-by:        -
+Primary-site:         http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/biew.html
+Alternate-site:       https://sourceforge.net/projects/beye/files/biew/6.1.0/
+Platforms:            DOS
+Copying-policy:       GNU General Public License
+Defunct-Primary-Site: http://biew.sf.net
+Modified-date:        2021-03-18.0
+Changes:              Update to package LSM metadata
+End

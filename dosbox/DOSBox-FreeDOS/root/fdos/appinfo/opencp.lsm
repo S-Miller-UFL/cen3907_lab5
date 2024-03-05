@@ -1,0 +1,16 @@
+Begin3
+Title:          OpenCubic Player
+Version:        2.6.0pre6 (rev A)
+Entered-date:   2015-06-23
+Description:    OpenCubic Player is a multi-format (mp3,wav,mid...) music player
+Keywords:       player
+Author:         Niklas Beisert,Felix Domke,Fabian Giesen,Tammo Hinrichs,Dirk Jagdmann
+Maintained-by:  
+Primary-site:   
+Alternate-site: 
+Original-site:  http://www.cubic.org/player
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

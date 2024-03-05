@@ -1,0 +1,16 @@
+Begin3
+Title:          HiRAM
+Version:        1.9a
+Entered-date:   2015-08-18
+Description:    Upper Memory (UMB) Extender for 80286, 80386, 80486 CPUs
+Keywords:       UMB,memory,manager
+Author:         JVP
+Maintained-by:  
+Primary-site:   http://gitlab.com/FDOS/util/hiram
+Alternate-site: 
+Original-site:  
+Platforms:      DOS
+Copying-policy: Modified (2-Clause) BSD License
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Un lanceur d'application multi-menus entiärement personnalisable pour DOS. Il comprend Çgalement Font Designer et plusieurs autres utilitaires. (NÇcessite la souris)
+Keywords:       dos lancer pgm pgme efntdsgn menu kiosque 16 bits
+End

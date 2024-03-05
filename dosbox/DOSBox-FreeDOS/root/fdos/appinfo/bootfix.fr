@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Bootfix est un outil pour tester et r‚parer le secteur d'amor‡age.
+Keywords:       Bootfix, amor‡age, secteur, mbr, disque
+End

@@ -1,0 +1,14 @@
+Begin3
+Title:          cal
+Version:        1.07a
+Entered-date:   2008-09-30
+Description:    Calendar program, akin to UNIX 'cal'
+Keywords:       freedos
+Author:         Charles Dye
+Maintained-by:  Charles Dye
+Primary-site:   http://gitlab.com/FDOS/unix/cal
+Platforms:      dos
+Copying-policy: Freeware with source
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

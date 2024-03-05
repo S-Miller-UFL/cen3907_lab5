@@ -1,0 +1,16 @@
+Begin3
+Title:          NTFS
+Version:        30Mar2001 (rev A)
+Entered-date:   2009-02-22
+Description:    Enables access to ntfs partitions
+Keywords:       ntfs, partition, file, access
+Author:         Christophe GRENIER
+Maintained-by:  Christophe GRENIER
+Primary-site:   http://www.cgsecurity.org/wiki/Chntpw_for_Dos
+Alternate-site: -
+Original-site:  http://www.cgsecurity.org/wiki/Chntpw_for_Dos
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

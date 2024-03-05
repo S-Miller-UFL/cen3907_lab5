@@ -1,0 +1,16 @@
+Begin3
+Title:          HIMEMX
+Version:        3.35a2 (rev A)
+Entered-date:   2020-05-19
+Description:    HimemX is a XMS memory manager derived from FreeDOS Himem.
+Keywords:       XMS, himem, memory manager
+Author:         Japheth, Tom Ehlert, Till Gerken
+Maintained-by:  Mercury Thirteen (mercury0x0d@protonmail.com)
+Primary-site:   http://himemx.sourceforge.net/
+Alternate-site: https://github.com/Baron-von-Riedesel/HimemX
+Original-site:  
+Platforms:      DOS, FreeDOS
+Copying-policy: General Public License, Artistic license and Public Domain
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

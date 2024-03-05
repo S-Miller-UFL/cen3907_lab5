@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Programme de compression BZIP2
+Keywords:       bzip, bunzip, zip, unzip, compresseur
+End

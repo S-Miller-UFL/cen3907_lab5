@@ -1,0 +1,6 @@
+Begin3
+Language:               de, 858
+Description:            Partition Manager kann: Speichern/Schreiben des MBR, Erstellen und L”schen von Partitionen, IDE-Informationen anzeigen, Formatieren und Žndern der Gr”áe von FAT-16 und FAT-32 Dateisystemen. Kommt mit ausgefeilten Bootmanagern.
+Primary-site:           http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/part.html
+Original-site:          http://www.ranish.com/part/
+End

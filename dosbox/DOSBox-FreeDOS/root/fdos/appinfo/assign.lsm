@@ -1,0 +1,16 @@
+Begin3
+Title:          assign
+Version:        1.4a
+Entered-date:   1999-12-12
+Description:    Assign a drive letter to a different drive
+Keywords:       freedos, assign
+Author:         Steffen.Kaiser@fh-rhein-sieg.de
+Maintained-by:  Steffen.Kaiser@fh-rhein-sieg.de
+Primary-site:   http://gitlab.com/FDOS/base/assign
+defunct-site:   http://www2.inf.fh-rhein-sieg.de/~skaise2a/ska/sources.html
+Platforms:      dos
+Copying-policy: GNU General Public License, Version 2
+Wiki-site:      http://wiki.freedos.org/wiki/index.php/Assign
+Modified-date:  2021-03-18.0
+Changes:        Update to package translations and LSM metadata
+End

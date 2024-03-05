@@ -1,0 +1,16 @@
+Begin3
+Title:          Move
+Version:        3.3b
+Entered-date:   2006-08-30
+Description:    Moves files from here to there
+Keywords:       freedos, move
+Author:         Joe Cosentino <hardmarine@comcast.net>
+Maintained-by:  Diego Rodriguez <dieymir@yahoo.es>
+Primary-site:   http://gitlab.com/FDOS/base/move
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/move/
+defunct-site:   http://www.geocities.com/xsaintx69/freedos
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package translations and LSM metadata
+End

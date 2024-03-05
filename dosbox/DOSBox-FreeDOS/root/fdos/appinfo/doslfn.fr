@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Fournit l'API de noms de fichier longs (LFN) sous DOS (sans Windows)
+Keywords:       Noms de fichier longs, lfn
+End

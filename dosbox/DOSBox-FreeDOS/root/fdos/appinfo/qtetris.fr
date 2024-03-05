@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Un clone du jeu TETRIS et un hommage au groupe Queen en mˆme temps.
+End

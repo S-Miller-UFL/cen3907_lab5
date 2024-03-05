@@ -1,0 +1,16 @@
+Begin3
+Title:          Iter Vehems ad Necem
+Version:        0.50a
+Entered-date:   2013-12-17
+Description:    A graphical roguelike game.
+Keywords:       
+Author:         Timo Kiviluoto
+Maintained-by:  
+Primary-site:   http://ivan.sourceforge.net
+Alternate-site: 
+Original-site:  
+Platforms:      DOS, Windows
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

@@ -1,0 +1,6 @@
+Begin3
+Language:       de, 858
+Description:    Bc ist eine Sprache um Berechnung zu automatisieren. Syntax Ñhnlich C, aber unterscheidet sich doch davon. Es unterstÅtzt einige Funktionen zur Interaktiven AusfÅhrung vom Statements. Bc ist Teil von POSIX P1003.2/D11.
+Keywords:       calculator, bc, gnubc, Taschenrechner
+Primary-site:   http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/gnubc.html
+End

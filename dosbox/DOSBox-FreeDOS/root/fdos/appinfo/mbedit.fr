@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    mbedit est un ‚diteur de texte en plein ‚cran avec option macro, calculateur en ligne, tampon de l'historique des commandes, ‚diteur hexad‚cimal et de nombreuses autres fonctionnalit‚s.
+Keywords:       ‚ditor,hexad‚cimal
+End

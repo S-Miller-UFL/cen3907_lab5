@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Lecteur de musique multi-formats qui utilise l'audio OPL2/3
+End

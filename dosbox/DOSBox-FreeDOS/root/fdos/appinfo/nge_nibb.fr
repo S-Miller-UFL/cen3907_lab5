@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Un clone de Nibbles, un vieux jeu d'arcade.
+End

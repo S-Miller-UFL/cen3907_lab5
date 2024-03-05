@@ -1,0 +1,16 @@
+Begin3
+Title:                 FancyMines
+Version:               1.00a
+Entered-date:          2012-09-25
+Description:           A minesweeper-like game with some nice graphical themes.
+Keywords:              mines
+Author:                Mateusz Viste
+Maintained-by:         -
+Primary-site:          -
+Alternate-site:        -
+Platforms:             DOS
+Copying-policy:        GNU General Public License, Version 3
+Defunct-Original-Site: http://www.viste-family.net/mateusz/software/fmines/
+Modified-date:         2021-03-18.0
+Changes:               Update to package LSM metadata
+End

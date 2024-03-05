@@ -1,0 +1,12 @@
+Freemacs is distributed using pkzip-compatible archive files.  You
+can obtain a free pkzip-compatible de-archiver from the Info-Zip
+Project, which can be found on ftp://ftp.cdrom.com
+
+The editor and source code are usually distributed separately, for
+those who may want to use Freemacs but don't care to look at its
+source.
+
+  emacsXXX.zip				program binaries and MINT
+  emacXXXs.zip				original .ASM source code
+
+Where XXX is the version of Freemacs.

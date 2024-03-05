@@ -1,0 +1,4 @@
+ECHO OFF
+ECHO Turn printer on.
+PAUSE
+COPY MVPPAINT.DOC PRN

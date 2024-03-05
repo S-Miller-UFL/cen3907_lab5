@@ -1,0 +1,15 @@
+Begin3
+Title:          The Mistral Report: Invisible Affairs
+Version:        1.0
+Entered-date:   2020-12-14
+Description:    An espionage-themed turn-based retro RPG for your classic machine.
+Summary:        The Mistral Report: Invisible Affairs is an espionage-themed turn-based retro RPG for your classic machine. Requires 386SX or better. Sound options include Adlib, PCSpeaker and OPL2LPT.
+Changes:        
+Keywords:       games, rpg
+Author:         Daniel Monteiro
+Primary-site:   http://montyontherun.itch.io/the-mistral-report
+ALternate-site: http://bitbucket.org/MontyOnTheRun/the-mistral-report/src/develop/
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 3
+Modified-date: 2020-12-14.0
+end

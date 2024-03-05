@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Afficher les boåtes de dialogue dans les scripts shell
+Keywords:       dialogue, curses
+End

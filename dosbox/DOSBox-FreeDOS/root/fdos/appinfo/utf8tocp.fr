@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    convertit les fichiers texte UTF-8 en d'autres pages de code et vice versa
+Keywords:       page de codes, convertisseur
+End

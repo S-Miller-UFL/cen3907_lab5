@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Remplace les fichiers du r‚pertoire de destination par des fichiers du r‚pertoire source portant le mˆme nom.
+Keywords:       copier, remplacer
+End

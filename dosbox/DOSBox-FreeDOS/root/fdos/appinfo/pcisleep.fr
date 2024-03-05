@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    PCISLEEP liste et met en veille les cartes PCI.
+Keywords:       PCISleep, pci, card, vga, veille, liste
+End

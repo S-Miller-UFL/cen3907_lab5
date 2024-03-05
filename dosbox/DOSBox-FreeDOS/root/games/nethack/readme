@@ -1,0 +1,316 @@
+NetHack is Copyright (C) Stichting Mathematisch Centrum, Amsterdam 
+and M. Stephenson. NetHack may be freely redistributed.  
+See license for details.
+
+                  Installing NetHack 3.4.1 for DOS
+                 ==================================
+		  (last revision: $Date: 2003/02/22 01:18:13 $)
+
+
+------------------------------------------------------------------------
+Hello ..., Welcome to NetHack!
+------------------------------------------------------------------------
+
+The Version 3.4.1 official binary distribution of
+NetHack 3.4.1 will run on a 386 or higher PC compatible 
+running DOS (or in a Windows DOS box).
+
+Save and bones files created with versions of NetHack
+prior to 3.4.0 will not work with 3.4.1.
+
+
+------------------------------------------------------------------------
+How to set up the game:
+------------------------------------------------------------------------
+
+In order to install this particular version of NetHack, you will need a PC
+compatible that has a 386 or higher processor running DOS or Windows.
+
+For this protected-mode binary (nh341dos.zip) you will need at least
+3 MB of extended memory available for use by DPMI programs, and
+just over 2 MB of disk space.
+
+NetHack consumes a lot of RAM and the more it has available
+the faster it runs; it is therefore recommended that you do NOT use
+it in conjunction with large memory-resident programmes, or RAM
+disks that consume significant amounts of base memory.
+
+The most straightforward method of setting up the game is to put all of
+the NetHack files into a single directory - C:\GAMES\NETHACK would be
+a typical choice.  Invoke the NETHACK.EXE executable in this directory 
+to run NETHACK.
+
+At this point, on a thoroughly clonal machine, you should have a
+playable game, but you quite likely want to poke around in DEFAULTS.NH
+with a text editor to set up pragmatic things (like where to
+store saved games), aesthetic things (like whether to use traditional
+ASCII characters or graphical tiles), and Fun Stuff (like the name of 
+your character and your pet).  If your machine is not a solid clone, 
+this step can save your metaphorical bacon by eliminating some otherwise 
+reasonable assumptions about how things work inside....
+	With luck the comments in DEFAULTS.NH should be adequate to
+figuring out how things work.
+
+
+------------------------------------------------------------------------
+Contacts:
+------------------------------------------------------------------------
+
+If you discover a bug and wish to report it, or if you have comments
+or suggestions we recommend using our "Contact Us" web page at:
+        http://www.nethack.org/common/contact.html
+
+If you don't have access to the web, or you want to send us a patch
+to the NetHack source code feel free to drop us a line c/o:
+        DevTeam (at) nethack.org
+
+Happy NetHacking!
+
+Please mention which of the 'official' nh3.4.1 binaries you are using, 
+and whether you use a disk cache, ramdisk, EMS or other such
+dis-enhancement as well as the EXACT error message and diagnostic code.
+
+------------------------------------------------------------------------
+Frequently asked questions:
+------------------------------------------------------------------------
+
+You asked:
+
+	I try to start up NetHack on my 8088 machine, but all I
+	get back is the dos prompt.
+
+Our installation expert replies:
+
+It's like this, NetHack has become so large, and contains so
+many feature laden adventures that it requires more processor
+power than your machine can muster.  Rather than cripple the
+game for the rest of us, we chose to support only those machines
+upon which the game was playable.  Sure we could make it so it
+would run on your machine, but it would take 3 minutes a move and
+you would just gripe more.
+
+You asked:
+
+	Wow this is a really neat game.  Is there any way to explore it
+	without dying so much?
+
+Our staff schizophrenic replies:
+
+Gentle Reader, I fear this is a most delicate question.  It is a
+frequent theme in fantasy literature that it is far easier to be
+granted a wish than it is to decide upon a good wish to make.  But I
+am no djinn, and I am willing to advise you on this point as well.
+And so I shall make the observation that, no matter what transpires,
+you will always die the same amount, viz: once.  (Unless of course
+some sort of magic intervenes.)  Perhaps what you want is a way to
+avoid dying so soon?
+	As it happens, this latter can be accomplished.  Death, as it
+transpires, is characterisable as _finitely avoidable_ in NetHack, for
+there is a Mystic Prompt known to those who have read the Man Page of
+Doom, the words of which, it is sometimes whispered, are as follows:
+		Die? [yn]
+The benefit of being asked this question at the, shall we say,
+appropriate, crucial moments is available -- for a price.
+Classically, an acceptable consideration would be the player's soul;
+but since according to the hallowed doctrines of most major religions,
+@-signs don't have souls to sell, we will be contented with your
+score....  For lo!  The game contains an X command, and by the
+strangely inexplicable power of the elder gods this X standeth for the
+word Discover (or EXplore, in the ancient tongue), and the typing of
+this Mystic Device shall effect the deal as described above,
+paragraphs 2 and 3.
+	Furthermore, and alternately, IF YOU ORDER IMMEDIATELY at the
+outset of a game, AS AN ADDED FREE BONUS YOU WILL RECEIVE A GENUINE
+HAND-CRAFTED WAND OF THREE WISHES!  Just type NETHACK -X on the
+command line and, since NetHack is freely distributable, SEND NO MONEY
+NOW.  As a variation on this theme, the -D flag will put the game into
+its debugging mode, IF you are a wizard... "Speak, wizard, and enter",
+to paraphrase the Old Master.
+
+
+You asked:
+
+	Ok the game works.  Where do I begin to learn how to play?
+
+A passing strange person replies:
+
+Of course it works.  What do you think I am, a radio?
+	Once you've got into the game, some good commands to try (and
+they don't even count as moves!) are ? and /.  At risk of sounding
+like a marketing blurb, the HELP key (which on your terminal will be
+marked with a question mark - and be warned that you may have to
+depress the shift key to activate this function!) gives you instant
+access to our online help facility.  It's kind of a menu with lovely
+options like "c" (where you get to see MY NAME in the history of
+NetHack!), "i" (which gives you all the important legal blurb which
+tells you about your rights and responsibilities as a NetHack
+licensee), and the more boring items "a" and "b" which merely explain
+all the commands and the display symbols and uninteresting stuff like
+that.  What the hell.  It's there, you can use it.
+	The / key is pretty good, too.  If there's something on the
+screen that you don't know what it is, well, it's probably a letter or
+a symbol or something.  That's wisdom, see?  But to get onto the
+Eternal Verities, suppose you want to know what it MEANS?  Aha!  Hit
+/, say "y", I want to specify it by cursor (cursors are blinking
+underscores, and if you're British like me you can curse them with
+your numeric bloody keypad, too -- Americans needn't understand this
+joke), whatever it is, and then you can point out the object of your
+confusion and have it explicated in frabjous detail.  Helps you avoid
+getting your face et, sometimes, that.  Always nice, not having your
+face et.
+	Oh, right, I almost forgot.  There's the Guidebook, too, for
+the quiche-eaters in our midst....  You may have got one with your
+game. (GUIDEBOO.TXT)
+
+
+You asked:
+
+	Are ASCII characters my only choice for representing things
+on the display?
+
+A worker tiling our floor responds:
+
+I've been in this business for twenty years.  All the people 
+today want to change things!  There's a lot to be said for the 
+traditional way of doing things.  On the other hand I can 
+provide you with a set of NetHack tiles, that will give 
+your display a completely different look.
+If you want to try tiles on the NetHack display, and you have 
+a VGA display adaptor, place an OPTION=video:autodetect line 
+into the DEFAULTS.NH file.
+
+
+You asked:
+
+	Can I run this game on a two floppy PC?
+
+Our entire staff choruses:
+
+NO!
+	Basically the game has gotten too huge.  Well, if you had
+really LARGE floppies, and a lot of EMS so that it doesn't have to
+swap code in from disk all the time (which would be REALLY slow), I
+suppose you could, a bit, maybe.  There's some support for it, since
+it used to be feasible, but really, today, I wouldn't want to try.
+And the problem is exacerbated by the fact that because of the
+overlays the game file is kept open all the time, so you aren't free
+to swap disks once the game is loaded.
+	Sorry 'bout that.
+	It *might* still be possible to compile a stripped-down
+version of the game that wouldn't need to be overlaid....  But we
+haven't tried even that approach for a long time, and there are no
+guarantees at all.  Of course, if you succeed in pulling it off, let
+us know; but don't get your hopes up.
+
+
+You asked:
+
+	What has been done to speed up the game?
+
+Our High Priest replies:
+
+These days? Buy a new clone from Jim's PC shop and be done with it.
+After all, NetHack _is_ the reason that you acquired a computer in
+the first place, isn't it...ISN'T IT!?
+
+You asked:
+
+	What is the minimum amount of memory I can run PC NetHack in?
+
+An arrogant experimentalist replies:
+
+"Can" is such an interesting term.  I've noticed your distinct
+propensity to word your questions in the vaguest manner possible.  Do
+you always have this problem, or only when I put the words into your
+mouth?
+
+Our testing, no means complete mind you, is that you need at least
+3 meg of memory to make it playable.  540K of free base ram as well.
+
+You asked:
+
+	What's this about a 386 specific protected-mode version of NetHack?
+
+The winner of our Richard Stallman thinkalike contest responds:
+
+Fight look and feel!  Break free from the commercial software
+prison.  Run the protected-mode version of Nethack compiled with DJGPP,
+the gnu licensed c compiler.  Nethack in protected mode,
+no overlays, no funky memory managers.  Even works under Windows
+and any other DPMI environment.
+
+Available with source, free from your local archive site.  Get
+yours today!
+
+You asked:
+
+	I was playing along with my 400 hitpoint level 8 Barbarian
+	named Gorp and my dog Gumby, having a wonderful evening bashing
+	heads, eating eye corpses, and generally running amok in the dungeon
+	and all of a sudden the (1) the lights go out, (2) I hit the power
+	cord with my sword, (3) lightning struck, or (4) the game actually
+	crashed.  Now what do I do?
+
+Our resident disaster recovery expert replies:
+
+WHAT?  Damn, hmmm, lets see now.  Where is the plan, you
+know what I mean, the PLAN!  Wait, now calm down, let me think.
+Hmm.  Hmm.  Oh yea!  You have INSURANCE don't you.  I mean you
+compiled the game with INSURANCE didn't you.  Well then you are
+in safe hands, so to speak.  Included at no extra charge to you
+is a smaller programme called recover.exe.  Its sole purpose in
+life is to save your behind in cases like this.  Don't go
+getting the idea that you can cheat by turning off your machine
+just when you are about to die and using it to resurrect your
+Wizard.  The recover program can tell you are cheating and will
+delete your high score list and give you bad luck for twenty 
+games.  
+	To use it after a crash just go to your NETHACK directory and
+check to see if you have a bunch of files ending in a number.
+Like so: ELVIS.0 ELVIS.1 ELVIS.2 and so on.  
+
+Just run NetHack again specifying exactly the same character name
+as you did before.  The game should prompt you:
+	"Recover?"
+Answer yes.
+
+Good enough?
+
+
+------------------------------------------------------------------------
+DISCLAIMERS:
+------------------------------------------------------------------------
+Throughout this document, the word "NetHack" refers to a rather jolly
+game involving a small @-sign getting its face et by dragons, and is
+in no way to be construed as relating to the theory or practise of
+gaining unauthorised use of or access to data or data processing
+equipment (except maybe if a few of us play the game at work,
+something which I want to go on record as saying is very, very naughty
+indeed and not the sort of thing you want to get involved with at
+all), and if any security-establishment types are reading this,
+remember it's YOU folks who do the cloak-and-dagger stuff, we're
+responsible professionals with real jobs and self respect and stuff
+like that.
+
+Secondly, all references to animal sacrifice, Donny Osmond, dynamic
+linking, Microsoft Corporation, okapi, claviprondrophony and so forth
+are made purely for the entertainment of the reader and if you think
+we meant something by it, that's your problem.  Research has shown
+that what people say and what they mean have so little to do with each
+other that you can actually get PAID to figure out why people say,
+"can you reach the salt?" when as a matter of fact they don't give a
+pair of dingo's kidneys what the answer to the question is, so long as
+someone provides them with some small white crystals in the near
+future and look! you came up with *that* interpretation all by
+yourself now didn't you.
+------------------------------------------------------------------------
+Special thanks to stephen p spackman who wrote the original version
+of this text and who will live forever in our memories.  (Nope, he
+isn't dead, just moved on to a higher calling).
+------------------------------------------------------------------------
+
+This document is Copyright (C) 1991 Stephen P Spackman and Kevin D
+Smolkowski (1993).  It constitutes part of the documentation of the PC
+version of the NetHack game, and may be distributed freely subject to the
+same terms set forth in the NetHack license.  Thank you for having a very
+nice day indeed.  Hack On!

@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Une belle calculatrice. Elle dispose d'une TUI et supporte la souris.
+Keywords:       calc, FoxCalc, calculatrice, FreeDOS, Fox
+End

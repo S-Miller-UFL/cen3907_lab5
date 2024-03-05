@@ -1,0 +1,5 @@
+Begin3
+Language:             fr, 850
+Description:          petit utilitaire pour localiser un disque par ‚tiquette
+Keywords:             Freedos, disque
+End

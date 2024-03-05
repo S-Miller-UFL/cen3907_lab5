@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    DOS Navigator 2 OpenSource est un gestionnaire de fichiers bas‚ sur DOS Navigator (c) 1991-99 par RIT Research Labs.
+Keywords:       navigateur dos, norton commander
+End

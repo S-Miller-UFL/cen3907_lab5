@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Programme de sommes de contr“le MD5
+Keywords:       md5, md5sum, somme de contr“le, checksummer, cryptographique, sha, crc
+End

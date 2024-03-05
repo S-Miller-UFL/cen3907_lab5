@@ -1,0 +1,16 @@
+Begin3
+Title:          Bolitaire
+Version:        0.62b
+Entered-date:   2015-12-04
+Description:    A Freecell clone for DOS
+Keywords:       
+Author:         Yogesh
+Maintained-by:  
+Primary-site:   http://gitlab.com/FDOS/games/bolitare
+Alternate-site: 
+Original-site:  
+Platforms:      
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

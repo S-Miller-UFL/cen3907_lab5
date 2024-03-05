@@ -1,0 +1,17 @@
+
+utf8tocp history
+
+
+v0.9.2 [20 Feb 2016]
+ - UTF-8 BOM markers are handled properly (that is, ignored).
+
+v0.9.1 [10 May 2015]
+ - added support for codepage CP1250,
+ - relicensed utf8tocp from GNU GPL to the BSD '2-clause' license.
+
+v0.9 [22 Dec 2013]
+ - added the -r (reverse operation) feature,
+ - added support for new codepages: CP775, CP808, CP852, CP858, CP866.
+
+v0.8 [15 Dec 2013]
+ - first public release.

@@ -1,0 +1,8 @@
+Begin3
+Language:              de, 858
+Description:           SHSUFDRV ist ein Treiber fÅr Floppy und Festplatten Images. SHSURDRV kopiert ein Image in den Arbeitsspeicher und/oder erstellt RAM drives.
+Keywords:              Treiber driver, floppy, images, hard disk, ram drive
+Primary-site:          http://www.geocities.com/jadoxa/shsufdrv/index.html (newest version)
+Alternate-site:        http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/util/disk/shsufdrv/
+Original-site:         http://www.geocities.com/jadoxa/shsufdrv/index.html
+End

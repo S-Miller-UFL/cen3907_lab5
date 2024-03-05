@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    le lecteur de CD audio pilot‚ par ligne de commande pour DOS
+End

@@ -1,0 +1,6 @@
+Begin3
+Language:       de, 858
+Description:    Bootfix ist ein Bootsektor-Tool zum Testen und Reparieren des Bootsektors
+Keywords:       Bootfix, boot, sektor, mbr, Festplatte
+Primary-site:   http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/bootfix.html
+End

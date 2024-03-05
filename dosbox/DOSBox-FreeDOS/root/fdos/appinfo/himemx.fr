@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    HimemX est un gestionnaire de m‚moire d‚riv‚ du FreeDOS Himem
+Keywords:       XMS, himem, gestionnaire de m‚moire
+End

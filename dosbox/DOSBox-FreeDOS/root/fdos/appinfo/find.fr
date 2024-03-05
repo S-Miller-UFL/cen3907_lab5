@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Afficher toutes les lignes d'un ou plusieurs fichiers contenant une chaŒne donn‚e. Recherche inverse et insensible … la casse ‚galement possible.
+End

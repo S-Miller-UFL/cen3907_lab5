@@ -1,0 +1,15 @@
+Begin3
+Title:          Wing
+Version:        0.7a
+Entered-date:   2013-07-13
+Description:    A galaga-like space shooter.
+Keywords:       galaga
+Author:         Adam Hiatt (cthulhu@grex.org), Anil Shrestra
+Maintained-by:  
+Primary-site:   http://wing.sourceforge.net
+Alternate-site: 
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

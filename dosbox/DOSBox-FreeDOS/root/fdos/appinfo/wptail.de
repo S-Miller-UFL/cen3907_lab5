@@ -1,0 +1,7 @@
+Begin3
+Language:               de, 858
+Description:            Erstellt TUI Dialoge, Eingabemasken und liest Benutzereingaben unter Nutzung von libnewt.
+Primary-site:           www.ibiblio.org/pub/micro/pc-stuff/freedos/files/util/menu/
+Alternate-site:         https://fedorahosted.org/newt/
+Original-site:          https://fedorahosted.org/newt/
+End

@@ -1,0 +1,15 @@
+Begin3
+Title:          freemacs
+Version:        1.6h
+Entered-date:   2008-10-19
+Description:    an emacs-like editor for DOS (like GNU Emacs)
+Keywords:       edit, editor, unicode
+Author:         Russell Nelson
+Maintained-by:  Jim Hall
+Primary-site:   http://gitlab.com/FDOS/editor/freemacs
+defunct-site:   http://web.crynwr.com/~nelson/
+Platforms:      DOS, FreeDOS
+Copying-policy: GNU General Public License, Version 1
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

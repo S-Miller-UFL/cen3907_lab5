@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Jeu du pendu en plusieurs langues
+Keywords:       pendu
+End

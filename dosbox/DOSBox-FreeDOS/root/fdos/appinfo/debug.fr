@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Outil pour tester et ‚diter les programmes
+Keywords:       debug, d‚bogueur, d‚bogueur DPMI,  d‚bogueur 32bit,  d‚bogueur noyau
+End

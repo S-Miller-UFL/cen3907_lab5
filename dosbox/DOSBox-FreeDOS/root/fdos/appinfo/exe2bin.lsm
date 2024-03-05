@@ -1,0 +1,16 @@
+Begin3
+Title:          exe2bin
+Version:        1.5a
+Entered-date:   2006-07-24
+Description:    Convert an exe file to bin format
+Keywords:       freedos
+Author:         ramax@maks.bhg.ru
+Maintained-by:  ramax@maks.bhg.ru
+Primary-site:   http://gitlab.com/FDOS/base/exe2bin
+Platforms:      dos
+Copying-policy: Sybase Open Watcom Public License, Version 1.0
+Wiki-site:      http://wiki.freedos.org/wiki/index.php/Exe2bin
+Defunct-Site:   http://www.freedos.org/files/dos/exe2bin/
+Modified-date:  2021-03-18.0
+Changes:        Update to package translations and LSM metadata
+End

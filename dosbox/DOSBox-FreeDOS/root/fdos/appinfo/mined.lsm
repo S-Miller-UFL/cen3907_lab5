@@ -1,0 +1,16 @@
+Begin3
+Title:          MinEd
+Version:        2015.25a
+Entered-date:   2017-05-05
+Modified-date:  2021-03-18.0
+Description:    Text editor with extensive Unicode and CJK support. Convenient and efficient features for editing of plain text documents, programs, HTML etc. User-friendly interface, mouse control and menus.
+Summary:        Mined is a powerful text editor. Mined provides both extensive Unicode and CJK support offering many specific features and covering special cases that other editors are not aware of (like auto-detection features and automatic handling of terminal variations, or Han character information). It was the first editor that supported Unicode in a plain-text terminal (like xterm or rxvt).
+Keywords:       edit, editor, unicode, codepage, encoding
+Author:         Michiel Huisjes (Minix), Achim MÅller (UNIX), Thomas Wolff <mined -at- towo.net>
+Maintained-by:  Thomas Wolff <mined -at- towo.net>
+Primary-site:   http://sourceforge.net/projects/mined/
+Alternate-site: http://towo.net/mined/
+Platforms:      DOS, Win32 (Cygwin), *nix
+Copying-policy: GNU General Public License, Version 3
+Changes:        Update to package LSM metadata
+End

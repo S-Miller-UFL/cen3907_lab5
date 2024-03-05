@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    GNU sed est l'impl‚mentation GNU de l'‚diteur de flux POSIX `sed'.
+End

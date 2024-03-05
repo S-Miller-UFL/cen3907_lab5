@@ -1,0 +1,22 @@
+utf8tocp v0.9.2 Copyright (C) 2013-2016 Mateusz Viste
+utf8tocp converts text files between UTF-8 and other codepages, both ways.
+
+Usage: utf8tocp [-r] encid file.txt
+
+  where encid is the identifier of the target encoding, from the list below:
+    437   - Original IBM PC codepage 437
+    775   - CP 775 (a.k.a. 'MS-DOS Baltic Rim')
+    808   - CP 808 (like 866, but with euro symbol)
+    850   - CP 850 (a.k.a. 'Latin 1')
+    852   - CP 852 (a.k.a. 'Latin 2')
+    858   - CP 858
+    866   - CP 866
+   1250   - Windows-1250 codepage
+   1252   - Windows-1252 codepage
+    kam   - Kamenicky encoding (a.k.a. CP867 or CP895)
+    maz   - Mazovia (a.k.a. CP667, CP790 or CP991)
+
+  -r  if specified, reverses the conversion (codepage -> UTF-8).
+
+This program is distributed under the terms of the BSD '2-clause' license.
+Read license.txt for details.  |  homepage: http://utf8tocp.sourceforge.net

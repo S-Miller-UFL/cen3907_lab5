@@ -1,0 +1,6 @@
+Begin3
+Language:               fr, 850
+New:                    *
+Description:            Partition Manager peut : Enregistrer et restaurer le MBR ; Cr‚er et supprimer des partitions ; Afficher les informations IDE des disques durs ; Formater et redimensionner les systŠmes de fichiers FAT-16 et FAT-32 ; Livr‚ avec des gestionnaires de d‚marrage avanc‚s.
+Keywords:               disque, partition, gestionnaire, ranish, fdisk, format
+End

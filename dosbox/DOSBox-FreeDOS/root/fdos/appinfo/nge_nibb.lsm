@@ -1,0 +1,16 @@
+Begin3
+Title:          NGE Nibbles
+Version:        0.1.0a
+Entered-date:   2013-07-17
+Description:    A clone of Nibbles, an old arcade game.
+Keywords:       nibbles
+Author:         Andrea Fazzi
+Maintained-by:  -
+Primary-site:   -
+Alternate-site: -
+Original-site:  http://nge.sourceforge.net/
+Platforms:      DOS, FreeDOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

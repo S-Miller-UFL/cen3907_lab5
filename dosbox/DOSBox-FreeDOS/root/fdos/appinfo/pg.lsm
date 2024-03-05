@@ -1,0 +1,16 @@
+Begin3
+Title:                 PG (PaGer)
+Version:               1.16a
+Entered-date:          2007-11-27
+Description:           Displays the contents of a text file one page at a time
+Keywords:              page, pg, text, show text
+Author:                bearheart -at- bearnet.com
+Maintained-by:         freedos_pg -at- yahoo.com.hk Lo Hung Che http://johnson.tmfc.net/dos/pg.html
+Primary-site:          http://gitlab.com/FDOS/util/pg
+Platforms:             DOS + Turbo C + Nasm, FreeDOS
+Copying-policy:        GNU General Public License, Version 2
+Defunct-Original-Site: http://www.freedos.org/jhall/utils/
+Defunct-Primary-Site:  http://johnson.tmfc.net/dos/pg.html
+Modified-date:         2021-03-18.0
+Changes:               Update to package LSM metadata
+End

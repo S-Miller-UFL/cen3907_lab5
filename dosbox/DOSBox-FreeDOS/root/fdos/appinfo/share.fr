@@ -1,0 +1,5 @@
+Begin3
+Language:             fr, 850
+Description:          Installe les capacit‚s de partage et de verrouillage de fichiers sur votre disque dur - pour le noyau FreeDOS uniquement
+Keywords:             share, partage de fichiers
+End

@@ -1,0 +1,6 @@
+Begin3
+Language:       de, 858
+Description:    Zeige alle Zeilen in einer oder mehreren Dateien, die einen bestimmten String enthalten. Umgekehrte und case-insensitive Suche sind ebenfalls m”glich.
+Maintained-by:  Eric Auer <e.auer -at- jpberlin.de>
+Primary-site:   http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/find.html
+End

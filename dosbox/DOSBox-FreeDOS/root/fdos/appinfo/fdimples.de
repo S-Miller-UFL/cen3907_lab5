@@ -1,0 +1,11 @@
+Begin3
+Language:       de, 858
+Summary:        FDIMPLES ist der Paketlisten-Editor fÅr den Advanced-Modus des FreeDOS Installers (FDI). Es kann auch als komfortables Front-End fÅr den FDINST-Installer verwendet werden um Pakete zu installieren. QCrt 0.9 Support fÅr bessere UnterstÅtzung der Parallels Virtual Machine
+Changes:        dos 16 bit
+Keywords:       Jerome Shidel <jerome _AT_ shidel.net>
+Maintained-by:  https://fd.lod.bz/repos/current/pkg-html/fdimples.html
+Primary-site:   https://github.com/shidel/FDIMPLES
+Alternate-site: http://up.lod.bz/FDIMPLES/
+Wiki-site:      DOS
+Platforms:      GNU General Public License, Version 2
+End

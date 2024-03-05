@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Comparer des fichiers  et afficher leurs diff‚rences
+Keywords:       comparer, comp, comparaison de fichiers
+End

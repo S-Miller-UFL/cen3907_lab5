@@ -1,0 +1,7 @@
+Begin3
+Language:              de, 858
+Description:           Zeigt den Verbrauch auf Platte an, wie UNIX 'du'
+Keywords:              du, display disk usage, verbrauch speicher
+Primary-site:          http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/du.html
+Alternate-site:        http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/util/disk/
+End

@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Dispositions de clavier pour KEYB
+Keywords:       keyb,agencements
+End

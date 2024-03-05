@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Undelete permet de restaurer des fichiers effac‚s (mais r‚cup‚rables) … partir d'un systŠme de fichiers FAT16/FAT32.
+Keywords:       undelete, unerase, r‚cup‚ration
+End

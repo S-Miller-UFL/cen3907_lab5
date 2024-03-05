@@ -1,0 +1,13 @@
+Begin3
+Title:          Floppy Bird
+Version:        1.0a
+Entered-date:   2015-09-15
+Description:    Floppy Bird is a clone of the infamous Flappy Bird written in 16 bit (x86) assembly. In other words it works on RAW METAL and doesn't require an underlying operating system, it is an operating system on its own.
+Keywords:       games, action
+Author:         Mihail Szabolcs
+Primary-site:   https://github.com/icebreaker/floppybird
+Platforms:      DOS
+Copying-policy: MIT License
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

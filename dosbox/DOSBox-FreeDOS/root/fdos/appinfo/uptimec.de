@@ -1,0 +1,5 @@
+Begin3
+Language:       de, 858
+Description:    Zeigt an, wie lange der Rechner schon l„uft seit Systemstart. Žhnlich dem UNIX-Tool 'uptime'
+Summary:        UPTIME ist ein 16bit DOS Tool, das die Zeit anzeigt, die seit Systemstart vergangen ist. Es ist das Pendant zum *NIX-Tool uptime.
+End

@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Convertir un fichier exe au format bin
+End

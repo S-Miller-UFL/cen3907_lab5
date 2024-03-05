@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Pr‚senter un choix … l'utilisateur et attendre l'appui d'une touche (utilise kitten au lieu de cats)
+End

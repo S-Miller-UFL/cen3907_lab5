@@ -1,0 +1,16 @@
+Begin3
+Title:          DOG
+Version:        0.8.3c
+Entered-date:   2002-03-15
+Description:    an alternative command.com shell, similar to FreeCOM, but different.
+Keywords:       command, shell
+Author:         Wolf Bergenheim
+Maintained-by:  Wolf Bergenheim
+Primary-site:   https://sourceforge.net/projects/dog/files/dog/
+Alternate-site: 
+Original-site:  https://sourceforge.net/projects/dog/files/dog/
+Platforms:      DOS (Turbo C++ 1.01, ASM), FreeDOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

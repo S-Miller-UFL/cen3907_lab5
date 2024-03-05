@@ -1,0 +1,16 @@
+Begin3
+Title:          KRaptor
+Version:        Apr_2004 (rev A)
+Entered-date:   2006-05-22
+Description:    Kraptor is an open-source Raptor-like game complete with several levels.
+Keywords:       raptor, game, shooter
+Author:         Kronoman
+Maintained-by:  
+Primary-site:   kraptor.sf.net
+Alternate-site: kraptor.sf.net
+Original-site:  kraptor.sf.net
+Platforms:      DOS, Win32, Linux
+Copying-policy: MIT license
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

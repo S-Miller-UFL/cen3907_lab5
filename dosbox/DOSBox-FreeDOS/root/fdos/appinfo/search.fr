@@ -1,0 +1,5 @@
+Begin3
+Language:             fr, 850
+Description:          Localiser des fichiers sur votre ordinateur
+Keywords:             freedos, recherche
+End

@@ -1,0 +1,4 @@
+Begin3
+Language:              fr, 850
+Description:           outil en ligne de commande qui convertit les images BMP en images PNG (et vice versa)
+End

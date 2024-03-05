@@ -1,0 +1,16 @@
+Begin3
+Title:          7-ZIP
+Version:        4.65a
+Entered-date:   2012-09-25
+Description:    p7zip is a quick port of 7za.exe (command line version of 7zip). 7-Zip is a file archiver with highest compression ratio.
+Keywords:       7zip, p7zip, compression, zip, unzip, arj
+Author:         Igor Pavlov
+Maintained-by:  Igor Pavlov
+Primary-site:   http://sourceforge.net/projects/p7zip
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/util/file/7zip/
+Original-site:  http://www.7-zip.org/
+Platforms:      DOS
+Copying-policy: GNU Lesser General Public License, Version 2.1
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Permettre … Impr ‚cran d'imprimer les ‚crans graphiques. (CGA/EGA/VGA/MCGA, sur PostScript, ESC/P Epson 8/24 aiguilles et les imprimantes HP PCL)
+Keywords:       Impr ‚cran graphiques imprimante pilote dos
+End

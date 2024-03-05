@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Affiche la quantit‚ de m‚moire utilis‚e et libre sur votre systŠme
+Keywords:       Memoire, mem, xms, ems, umb, hma
+End

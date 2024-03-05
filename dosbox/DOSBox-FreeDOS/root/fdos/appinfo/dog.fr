@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Un shell command.com alternatif, similaire … FreeCOM mais diff‚rent.
+Keywords:       commande, shell
+End

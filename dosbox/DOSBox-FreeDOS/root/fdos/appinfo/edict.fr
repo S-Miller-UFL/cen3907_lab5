@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+New:            *
+Description:    Enhanced Disk Image Creation Tool - utilitaire de cr‚ation d'image disque pour les disquettes qui ont des problŠmes
+End

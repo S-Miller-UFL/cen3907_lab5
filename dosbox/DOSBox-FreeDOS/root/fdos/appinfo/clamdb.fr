@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    La base de donn‚es virale pour ClamAV
+Keywords:       clamav, av, anti-virus, virus, db, base de donn‚es
+End

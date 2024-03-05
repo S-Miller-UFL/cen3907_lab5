@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    LOADFONT (GNUCHCP) modifie la police bitmap EGA/VGA sur l'‚cran en mode texte.
+Keywords:       loadfont gnuchcp bitmap police ega vga ‚cran
+End

@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Utilitaire qui impl‚mente le standard de codage de contenu Base64 d‚crit dans la RFC1113.
+End

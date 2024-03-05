@@ -1,0 +1,16 @@
+Begin3
+Title:          FreeDOS Help
+Version:        0.1c
+Entered-date:   2021-03-06
+Description:    FreeDOS help files in AMB format
+Changes:        renamed launch batch to AMBHELP.BAT
+Keywords:       freedos, help, doc, text, amb
+Author:
+Maintained-by:
+Primary-site:   https://gitlab.com/FDOS/base/ambhelp
+Alternate-site:
+Original-site:  https://gitlab.com/FDOS/base/ambhelp
+Platforms:      DOS
+Copying-policy: GNU Free Documentation License, Version 1.1
+Modified-date: 2021-03-19.0
+end

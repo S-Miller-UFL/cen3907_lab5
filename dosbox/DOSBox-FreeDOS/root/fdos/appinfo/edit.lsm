@@ -1,0 +1,16 @@
+Begin3
+Title:          FreeDOS Edit
+Version:        0.9b
+Entered-date:   2008-04-09
+Description:    FreeDOS improved clone of MS-DOS Edit
+Keywords:       Edit Editor
+Author:         Shaun Raven <shaun@cmlmicro.co.uk>
+Maintained-by:  Aitor Santamaria-Merino <aitor.sm (#) gmail.com>
+Primary-site:   http://gitlab.com/FDOS/base/freedos-edit
+Platforms:      DOS (Borland C)
+Copying-policy: GNU General Public License, Version 2
+Wiki-site:      http://wiki.freedos.org/wiki/index.php/Edit
+Defunct-Site:   http://freespace.virgin.net/shaun.raven/
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

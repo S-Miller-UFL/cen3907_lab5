@@ -1,0 +1,10 @@
+Begin3
+Language:       de, 858
+Description:    Der DOS-Debugger zum Testen und VerÑndern von Programmen. Mit 32bit DPMI UnterstÅtzung
+Keywords:       debug, debugger, DPMI debugger, 32bit debugger, kernel debugger
+Maintained-by:  Japheth <mail -at- japheth.de>
+Primary-site:   http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/debug.html
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/debug/
+Original-site:  http://math.berkeley.edu/~vojta/
+Wiki-site:      http://wiki.freedos.org/wiki/index.php/Debug
+End

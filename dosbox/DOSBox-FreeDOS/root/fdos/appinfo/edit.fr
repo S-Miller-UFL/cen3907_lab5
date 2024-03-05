@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Clone FreeDOS am‚lior‚ d'Edit de MS-DOS
+Keywords:       diter diteur
+End

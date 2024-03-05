@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Permet l'accäs Ö des partitions NTFS
+Keywords:       ntfs, partition, fichier, accäs
+End

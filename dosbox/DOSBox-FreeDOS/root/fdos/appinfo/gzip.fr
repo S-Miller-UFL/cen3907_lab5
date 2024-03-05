@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Compression GNU zip  - un outil d'archivage de fichiers, comme PKZIP
+Keywords:       gzip, zip, unzip, gestionnaire d'archives, compresseur
+End

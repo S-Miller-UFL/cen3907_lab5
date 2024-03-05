@@ -1,0 +1,13 @@
+Begin3
+Title:          XGREP
+Version:        1.03a
+Entered-date:   2007-03-09
+Description:    Fast UNIX-like `grep' clone supporting regular expressions
+Keywords:       freedos, files, find, grep, search, text, unix-like
+Author:         Robert Nordier <rnordier (at) nordier.com>
+Primary-site:   http://gitlab.com/FDOS/unix/xgrep
+Platforms:      DOS (Arrowsoft Assembler, WarpLink)
+Copying-policy: Zero Clause BSD License
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

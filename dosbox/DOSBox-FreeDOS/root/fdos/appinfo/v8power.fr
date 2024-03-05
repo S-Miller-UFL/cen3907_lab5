@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    un ensemble d'utilitaires d'am‚lioration de fichiers batch pour DOS pouvant fournir une interface utilisateur texte et d'autres fonctions de traitement
+Keywords:       dos 16 bits batch vask vchoice vecho vpause vframe vmath vline vprogres veach
+End

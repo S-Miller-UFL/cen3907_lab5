@@ -1,0 +1,421 @@
+This is a partial list of changes between versions 1.5f and 1.6 of Freemacs.
+Unfortunately, I have made so many changes to the MINT code that it's
+quite a large bit of effort to document them all.  These changes all
+bring Freemacs into greater compatability with Gnu Emacs.
+
+Primitives:
+
+When a string is fetched using the default function, and that string
+doesn't exist, the function dflta (if active, otherwise dfltn) is
+executed with the SELF being the name of the original function, arg1
+being the first argument of the original function.  Very magical, but
+it lets Freemacs automatically load libraries.  Also lets you trap
+non-existant strings, although Freemacs doesn't currently use that
+ability.
+
+Creating new buffers should work a little faster.
+
+Some conditionally-defined code was added to my own experimental purposes.
+Some of this code is dependent on the symbol KA9Q, which should be zero.
+Other code is dependent on the symbol TIMING, which should be zero.
+
+New internal variable: rc (rightmost column).
+
+More "new" internal variables: wc, cc.  These are the foreground colors that
+trailing whitespace and control characters (respectively) will be
+shown in.  Actually they were in 1.5e, but they weren't announced in this
+list of changes.
+
+DesqView, Topview, and MS-Windows support added.
+
+#(ex) -- if stdout and stderr are redirected to the same file, then the
+file is only opened once, and both handles point to the same file.  The
+file used to be opened twice, which caused some of the output to be
+ignored.
+
+The rightmost column on the screen contains a scroll bar that indicates
+the position of point relative to the entire file.
+
+Inverse video is now handled by swapping foreground and background rather
+than using 15 - foreground and 7 - background.
+
+String searching functions should be faster (#(mp) and #(fm)).
+
+Regexps:  Backward regexps now work properly.  \| (alternation) is now
+implemented.  Character classes match newline only if newline is the first
+character in the class.  Otherwise it matches CR and LF.
+
+The variable "Buffer-Modified" (#(lv,bm)) is now a bitmap.  Bit zero is
+set if the buffer has been modified.  Bit one is set if the buffer is
+read-only.
+
+Several logical operators have been added: || (or), && (and), ^^ (xor).
+They work exactly like the arithmetic operators.
+
+The auto-save counter should only be decremented when actually waiting for
+a character, as opposed to checking for a character.
+
+The primitive #(rf) will now return "Read Only" if the file it loads
+has the read-only attribute.
+
+In ibm.asm, M-Escape was M-Esc, which was wrong.
+Also in ibm.asm, only force video mode 3 if there is no memory at b800:0
+	(and we're not in mode 7, i.e. monochrome text).  This lets you
+	use VGA video modes that are above the standard graphics modes.
+
+Tabs are displayed using the Whitespace color.  On an IBMPC, this will
+cause the cursor to display the whitespace color when positioned over
+a tab, and the foreground color when positioned over a space.
+
+Made the stack 512 bytes instead of 256 bytes because of potential stack
+overflow problems.
+
+Mint code:
+
+Registers now work.
+Read-only files now work.
+#(Fmodename) was renamed to #(Fset-modename)
+##(F-real-location) is the fully-qualified pathname to the location of the
+	complete Freemacs.  This is used if you keep the most important files
+	on a ramdisk.
+##(F-double-wait) was deleted.
+##(F-make-backups) was added.  If non-null, make backup files when saving.
+##(F-search-delete-char) now includes C-h, Back Space, and Del.
+#(F:Insert-Comma), #(F:Insert-LPar) are subsumed by ???
+#(F:Grep-mode) was added, to go with M-x grep.
+##(F-paragraph-separate) and ##(F-paragraph-start) now work as documented.
+#(F:backward-paragraph), #(F:forward-paragraph) and #(F:fill-paragraph)
+	now use ##(F-paragraph-separate) and ##(F-paragraph-start).
+#(F:mark-paragraph) was added.
+#(F:goto-beginning) was renamed to #(F:beginning-of-buffer)
+#(F:goto-end) was renamed to #(F:end-of-buffer)
+#(F:buffer-menu) was deleted.
+#(F:execute-kbd-macro) was renamed to #(F:call-last-kbd-macro).
+#(F:capitalize-word) had a bug.
+#(F:cd) was added.
+#(F:make) was renamed to #(F:compile).
+??? was renamed to #(F:delete-horizontal-space)
+#(F:dir) was renamed to #(F:list-directory)
+#(F:extended-command) was renamed to #(F:execute-extended-command)
+#(F:backward-search) was renamed to #(F:search-backward)
+#(F:forward-search) was renamed to #(F:search-forward)
+The old function #(F:grep) was renamed to #(F:mint-grep).
+#(F:grep) now does the same thing that Gnu Emacs does.
+#(F:insert-file) now creates a mark at the other end of the insertion.
+#(F:insert-line) was deleted.
+#(F:just-one-space) was added.
+#(F:kbd-macro-query) was added.
+#(F:kill-line) now does the same thing that Gnu Emacs does.
+#(F:kill-to-end-of-line) was deleted.
+#(F:kill-trail-white) was deleted.  Why???
+#(F:kill-whitespace) was deleted.
+#(F:mark-beginning) and #(F:mark-end) were deleted.
+#(F:mouse-pick) was renamed to #(F:mouse)
+#(F:name-kbd-macro) was renamed to #(F:name-last-kbd-macro)
+#(F:new-window) was renamed to #(F:recenter)
+#(F:newline-and-backup) was renamed to #(F:open-line)
+#(F:newline-and-indent) now works right.
+#(F:next-line) creates new lines at the bottom of the file.
+#(F:save-buffers-kill-emacs) gives you a chance to save abbreviations.
+#(F:set-comment-column) now does the same thing that Gnu Emacs does.
+#(F:set-mark) was renamed to #(F:set-mark-command)
+#(F:spell-word) calls #(Fspell-word) to do its work.
+#(F:staydown) was moved into the pick library.
+#(F:start-kbd-macro) and #(F:stop-kbd-macro) were changed so that they
+	stop when an error occurs.
+#(F:transpose-words) no longer uses the kill ring to do its work.
+#(F:try-it) now uses overwrite mode to print its output.
+The mark ring now uses temporary marks instead of permanent marks.  This
+	was done to allow for registers.
+#(F:view-two-windows) was added.
+#(F:where-is) was added, thanks to Michael.
+#(F:word-search-backward) and #(F:word-search-forward) were added.
+#(F:write-current-file) makes a backup if you give it an argument.
+#(F:write-named-file) now uses filename completion.
+#(F:zap-to-char) was added.
+
+Internal functions:
+
+#(Fabsolute-filename) got confused if you gave it two of the same subdirectory
+	names.
+#(Fbackward-skip-paragraph) was deleted.
+#(Fbuffer-modified) now knows about write-only buffers.
+#(Fcompleting-readline) now lets you edit the line.
+#(Fcompleting-readline.C-i) tells you how many matches there are.
+#(Fdflta) does autoloading.
+#(Fexecute-and-mark) evaluates arg1 and creates a mark around anything it may
+	have put in the text buffer.
+#(Ffill-paragraph-do) now works properly.
+#(Ffind-or-make-buffer) tries to find buffers quickly if it can.
+#(Ffind-unused-buffer) tries to find unused buffers quickly.
+Functions that need to translate between keys and characters now use
+	Fkey2char.*
+#(Fline-on-screen) was deleted.
+#(Flongest-prefix) didn't catch the longest-matched string properly.
+#(Flooking-at) was changed to return yes if a newline is in the regexp.
+#(Fmaybe-write-abbrevs) will offer to write the abbreviations.
+#(Fnew-extens) now works properly with pathnames containing periods.
+#(Fonly-last) now works in the presence of null arguments.
+#(Fparse-error-ms) used to use #(lr), an obsolete primitive.
+#(Fparse-error-search) does a better job of determining the compiler/language.
+#(Fprefix-matches) If arg1 matches arg3 starting at the third character, and
+	the string whose name starts at the second character doesn't exist,
+	return arg3 starting at the arg2th character.
+#(Freadline) no longer special-cases the editing keys.
+#(Freadline.C-y) now works.
+#(Fregexp-quote) was missing +.
+#(Frun-kbd-macro-do) no longer blindly repeats.
+#(Fsave-docs) had a typeo that prevented it from working.
+#(Fset-minor-mode) had a missing paren.
+#(Fstaydown-*) moved to the pick library.
+#(Fspell-word) is now a very simple function unless you have ispell installed.
+#(Ftolower) and #(Ftoupper) were deleted, as #(si) does the same job.
+#(Ftrack-mouse) moved to the pick library.
+#(Ftrash-buffer) simplified.
+#(Fwhere) works properly in two window mode now.
+#(Fwrite-backup) was deleted.
+#(Fwrite-modified-files-do) was deleted.
+#(Fwrite-named-file-do) was deleted.
+
+
+
+
+
+
+
+This is a list of changes between versions 1.5d and 1.5e of Freemacs:
+
+Primitives:
+
+Bells have been revamped, thanks to Jonathan Vail.  He sent me some code
+to do a visual bell (invert the video), and I added the hooks to make it
+optional.  Now, #(bl) has two arguments -- pitch and duration.  If the
+pitch is zero, then the pitch is really taken from the variable #(lv,bp).
+If the pitch is -1, then the visual bell is used.  If the pitch is non-zero,
+then a bell is rung.
+
+If your foreground was intense white, your mode line used to blink.  This
+has been fixed.
+
+Mint code:
+
+F:edit-options: all primitive variables that are really user preferences are
+	now settable.
+F:capitalize-word: didn't capitalize already-capitalized words properly.
+Fxlat-region: didn't work right if the mark in arg1 wasn't a user mark.
+Freadline.C-q: If you type C-q C-m, you get CRLF where you used to get CR.
+Fquoted-char: add "Return" to the list of recognized keys.
+F:find-file: Prompts for a filename like Gnu Emacs does.
+Freadline: Now uses the variable F-delete-or-append to decide whether to delete
+	or append new typein.
+F-delete-or-append: If this variable is null, then the offered value when
+	reading a line from the keyboard will be appended to by the first
+	keypress.  If it is non-null, then the first keypress will delete
+	the offered value.
+M!keys-edit: Used to leave you at the end of the buffer, which was confusing.
+Fargument-do: ESC 5 0 - should insert 50 dashes.  It didn't.  It does now.
+Fargument-characters: Not needed anymore.
+Frecall-buffer: New function.  Returns the most recently visited buffer
+	that isn't visible.  The old algorithm didn't work properly in
+	two-window mode.
+F:select-buffer: Uses the new and improved #(Frecall-buffer).
+Freturn-to-buffer: Uses the new and improved #(Frecall-buffer).
+Fr: New function.  Really cute.  Make arg1 into a string, and substitute
+	parameters arg2 for ARG1, arg3 for ARG2, etc...  Obviously this is
+	a kludge that will only work to one level, but it's very handy.
+Fy-or-n: Similar to #(Fyes-or-no) and will probably obsolete it eventually.
+F:save-buffers-kill-emacs: New version -- the old one didn't quit on C-g
+Ftrash-buffer: New version -- the old one didn't quit on C-g
+Fok-to-trash-buffer: New version -- the old one didn't quit on C-g
+Fabsolute-filename: now deals with drive names.
+F:kill-trail-white: Didn't work.
+F:one-window: Didn't work if the same buffer was in both windows.
+Fbury-buffer: New function, used by Tags.
+F:find-file: Changes to allow the use of bury-buffer.
+Fyes-or-no: More like GNU Emacs.
+Fcompleting-readline.C-i: More like GNU Emacs.
+F:indent-rigidly: Used to indent one too many lines.
+F:save-all-libs: This is simple tinkering.
+Fsave-lib: This is where the buggie is.  We were entering the mode before we had
+	finished changing everything.
+
+
+
+This is a list of changes between versions 1.5c and 1.5d of Freemacs:
+
+Conventions:
+
+The library user.ed and user.edd (letter U) will now be automatically
+loaded.  Additional packages such as etags.min and norman.min (Norman Ramsey's
+preferences) will be loaded into the User library.
+
+Primitives:
+
+#(dt) and #(tm) have been replaced by #(ct), which returns the same value
+    as Unix's ctime().  #(ct,filename) returns the time and date associated
+    with the filename, or a null string if the file doesn't exist.
+#(si,foo,bar) uses the string foo to translate the string bar.
+
+Mint code:
+
+Rudimentary editing of the minibuffer:
+	C-a aka Home
+	C-b aka Left Arrow
+	C-d aka Delete
+	C-e aka End
+	C-f aka Right Arrow
+	C-k
+down-page and up-page now moves up or down as many lines as in its argument.
+C-x 0 added.  It deletes the current window.
+C-x 2 splits the current window and puts the *same* buffer in both windows.
+M-x shell-command-to-buffer will put its output into the current
+    buffer if an argument is given.
+Filename completion now listens to F-completion-ignored-extensions, which
+    causes some filename extensions to be ignored.
+M-0 through M-9 and M-- are now handled the same as C-u, and either form
+    may be intermingled.
+M-x switch-to-buffer (C-x b) will create a buffer if it doesn't exist.
+M-x yank-rectangle didn't pad short lines correctly.
+When a single character answer is expected, case is now ignored.
+If you try to save a file without a filename, you are prompted for one.
+M-x find-file-other-window (C-x 4 f) added.
+M-x switch-to-buffer-other-window (C-x 4 b) added.
+M-x dired-other-window (C-x 4 d) added.
+
+
+This is a list of changes between versions 1.5c and 1.5a of Freemacs:
+
+Regular expressions are now supported in query-replace-regexp,
+    isearch-forward-regexp, and replace-regexp.
+If you try to load a directory, you get placed into dired-mode.
+The most recent buffer visited is remembered.
+If you compile something with M-x make, error messages can be parsed using
+    M-x parse-error, M-x next-error, and M-x previous-error.
+M-x kill-rectangle and M-x yank-rectangle now work.
+M-w (copy-region) now works right when used after a kill.
+M-x goto-line will prompt if no argument is given.
+Fflash-paren (used by ')', ']', and '}') now works right when recording
+    a key.
+The absolute filename is now remembered, so that if you change the directory
+    when shelled out to dos, your file will be saved from whence it came.
+M-$ (spell-word) now gives an error if the speller isn't installed.
+Mode selection is now chosen from Fext-mode-list.
+C-x s (write-modified-files) no longer offers to save internally generated
+    buffers.
+Better mouse support:  If you double-click on a character, then the "right
+    thing" gets selected with inverse-video.  If you then type printable
+    characters, the selected text is first killed and the character is
+    inserted.  If you type Back Space, the text is just killed.  If you
+    double-click and then move the mouse without releasing the button,
+    any amount of text can be selected.  Neat!
+M-q (fill-paragraph) doesn't move the cursor.
+Text mode now turns on Fill minor mode.
+M-x buffer-menu has been implemented.
+M-x dired has been implemented.
+C-Pg Dn (next-buffer) has been implemented.
+C-Pg Up (prev-buffer) has been implemented.
+M-x kill-comment has been implemented.
+C-M-f (forward-list) has been implemented.
+C-M-b (backward-list) has been implemented.
+C-x C-i (indent-rigidly) has been implemented.
+C-x . (set-comment-column) has been implemented.
+M-; (indent-for-comment) has been implemented.
+M-x ASM-mode has been implemented.
+
+
+
+This is a list of changes to emacs.exe from version 1.5a of Freemacs:
+
+#(sv,as,xxx) -- Auto Save now only counts keystrokes.
+#(sv,mb,2) makes the buffer write protected.  (Doesn't really
+    work right yet).
+#(an,foo,,bar) will put bar AFTER the cursor in the minibuffer.  I haven't
+    written it yet, but this will allow editing of the minibuffer.
+#(lv,cd) now returns the current directory in lower case.
+#(ff,c:\) now returns c:\ so that dired works right.
+#(lp,pattern,no good,regexp,case-fold) subsumes #(lr,...):
+    pattern is the search pattern.
+    no good is the value if the pattern is not a valid pattern (only for
+        regular expressions).
+    regexp is non-null if you want the pattern to be interpreted as a regular
+        expression.  If it is null, then the pattern is interpreted literally.
+    case-fold is non-null if you want upper and lower case to be considered the
+        same.
+#(it,0) no longer discards mouse buttons.
+#(si,C,F) takes the ASCII value of the character C and indexes into the string S
+    and returns the character found there.  For example, #(si,X,Fxlat-lower)
+    will return the lower case version of X.  Same for #(si,X,Fxlat-upper),
+    only upper case.
+The key "M-Comma" used to be "M-," which was wrong.
+IBM CGAs no longer snow.
+The inner loop was sped up slightly.
+#(sv,im,X) now works properly in two window mode.
+
+
+
+Features new to 1.5:
+
+Up to 256 K of MINT space.
+More free memory when shelling out to DOS.
+More GNU-Emacs-like.
+Faster library loading (already in 1.4d).
+Autoloading of libraries.
+Searching of the path to find the libraries.
+"normal" keyboard handler.
+C-mode
+Mint-mode
+Options-mode
+Text-mode
+Better mouse support:  copy region, copy line, copy word.
+And, as always, new and improved bugs :-)
+
+Bugs fixed between 1.04c and 1.04a:
+
+  o One global mark was being shared between all the buffers, so that a
+    M-x set-mark and then M-x select-buffer and then M-x swap-point-and-mark
+    would bring you back to the wrong place.  Now each buffer has its own
+    mark.
+
+  o #(Fmultiple) used to be non-recursive.  Now, however, if it is invoked
+    as #(Fmultiple,...,...,SELF), then a unique list will be created for
+    each invocation.
+
+  o A few left-over C-[A-Z] key definitions were removed.
+
+  o #(Fhit-any-key) now tells you a little bit more.
+
+  o M-x find-file now listens to wildcards.
+
+  o Wildcards in filenames on the command line now get expanded.
+
+  o The old #(Fgoto-beginning-of-paragraph) used to loop forever at the
+    beginning of the buffer.
+
+  o M-x shell-command-to-buffer, and suspend-emacs now don't bother waiting
+    for a key.
+
+  o M-x select-buffer now defaults to the most recently visited buffer.
+
+  o M-x filter-region didn't work if parameters to the filter were given.
+
+  o #(Fflash-paren) used to quit at the first blank line.  Now it quits at
+    the first double blank line.
+
+  o You can now add a control character to the input line.
+
+  o M-x compare-windows now halts when it gets to the end of the file.
+
+  o You now get more help when you get started going.
+
+  o #(Fwrite-file) has been improved:
+
+Name:Fwrite-file
+Actually write the file to the filename given in arg1.
+If the file has a line containing "History:", the current line number and
+column will get inserted following the colon.  If the file has a line
+containing "Edit History:" OR if the variable edit-history is set to yes,
+then every time you save the file, you will be asked why you are saving
+the file, and a line with the time and date and the reason for saving will
+be inserted after the "Edit History:" line.
+
+

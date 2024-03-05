@@ -1,0 +1,14 @@
+Begin3
+Title:          Spool
+Version:        2.2a
+Entered-date:   1995-06-28
+Description:    Spools file printing in the background. This does not require the use of a PRINT command.
+Keywords:       print, spool, spooler
+Author:         Craig Derouen
+Maintained-by:  
+Primary-site:   http://gitlab.com/FDOS/util/spool
+Platforms:      DOS, FreeDOS
+Copying-policy: Public Domain
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

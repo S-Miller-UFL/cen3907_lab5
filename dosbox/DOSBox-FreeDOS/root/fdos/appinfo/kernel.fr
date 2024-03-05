@@ -1,0 +1,5 @@
+Begin3
+Language:              fr, 850
+Description:           Le noyau FreeDOS (prend en charge FAT12/FAT16/FAT32)
+Keywords:              noyau, FreeDOS, DOS, MSDOS
+End

@@ -1,0 +1,16 @@
+Begin3
+Title:          FoxCalc
+Version:        0.92a
+Entered-date:   2007-12-31
+Description:    A nice calculator. It has a TUI and mouse support.
+Keywords:       calc, FoxCalc, calculator, FreeDOS, Fox
+Author:         Mateusz Viste "Fox" <mateusz.viste@mail.ru>
+Maintained-by:  Mateusz Viste "Fox" <mateusz.viste@mail.ru>
+Primary-site:   http://mateusz.viste.free.fr/dos
+Alternate-site: http://mateusz.viste.free.fr/dos
+Original-site:  http://mateusz.viste.free.fr/dos
+Platforms:      DOS (FreeBASIC v0.18.3)
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

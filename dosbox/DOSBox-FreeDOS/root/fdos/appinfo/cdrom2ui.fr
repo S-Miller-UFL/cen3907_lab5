@@ -1,0 +1,4 @@
+Begin3
+Language:             fr, 850
+Description:          Petit outil pour ‚jecter, fermer un morceau, verrouiller, enlever le verrou ou remettre … z‚ro tout CD-ROM, s‚lectionn‚ par la lettre du lecteur.
+End

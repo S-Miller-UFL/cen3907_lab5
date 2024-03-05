@@ -1,0 +1,16 @@
+Begin3
+Title:          NetHack
+Version:        3.4.3a
+Entered-date:   2013-12-11
+Description:    A single player dungeon exploration game.
+Keywords:       
+Author:         Stichting Mathematisch Centrum, M. Stephenson
+Maintained-by:  
+Primary-site:   http://www.nethack.org/
+Alternate-site: 
+Original-site:  
+Platforms:      DOS, Windows, GNU/Linux, OS/2, Mac, Amiga, Atari
+Copying-policy: NetHack General Public License
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

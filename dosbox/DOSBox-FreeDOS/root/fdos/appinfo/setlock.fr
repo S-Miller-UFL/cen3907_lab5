@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    R‚gler les touches Verr Num, VerrÿMaj et Arrˆt D‚fil … partir du logiciel
+Keywords:       Verr Num, VerrÿMaj, Arrˆt D‚fil, d‚finir
+End

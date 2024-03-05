@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    ClamAV analyse les fichiers et r‚pertoires … la recherche de virus
+End

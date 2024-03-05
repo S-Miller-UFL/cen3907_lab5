@@ -1,0 +1,17 @@
+Begin3
+Title:          setedit
+Version:        0.5.4a
+Entered-date:   2017-05-04
+Modified-date:  2021-03-18.0
+Description:    A programmer's editor for DJGPP, similar to BC++ IDE and RHIDE
+Summary:        setedit is a friendly console text editor with the look and feel of the Borland editors for DOS. This man page only describes the command line options of the editor. You can get full help about the editor using the help of the editor. Any number of file names can be specified after the options and they will be automatically loaded by the editor in the same order you listed them. You can pass extra command line options using the SET_CMD-LINE environment variable. Read the documentation for more information about this feature. (Note: setedit will not run under DOSBox)
+Keywords:       editor, unicode, DJGPP
+Author:         Salvador Eduardo Tropea (set -at- users.sf.net)
+Maintained-by:  Salvador Eduardo Tropea (set -at- users.sf.net)
+Primary-site:   http://setedit.sourceforge.net/
+Alternate-site: 
+Original-site:  http://setedit.sourceforge.net/
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Changes:        Update to package LSM metadata
+End

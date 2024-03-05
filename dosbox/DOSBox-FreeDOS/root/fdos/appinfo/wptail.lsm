@@ -1,0 +1,15 @@
+Begin3
+Title:                  Whiptail
+Version:                0.52.10a
+Entered-date:           2016-07-17
+Description:            Create TUI dialog boxes and forms and collect user input using libnewt
+Keywords:               dialog, whiptail, newt, gpm
+Author:                 Red Hat
+Maintained-by:          Red Hat, DOS port by Blairdude@gmail.com
+Primary-site:           http://gitlab.com/FDOS/util/wptail
+defunct-Alternate-site: https://fedorahosted.org/newt/
+Platforms:              Unix, DOS
+Copying-policy:         GNU Library General Public License, Version 2
+Modified-date:          2021-03-18.0
+Changes:                Update to package LSM metadata
+End

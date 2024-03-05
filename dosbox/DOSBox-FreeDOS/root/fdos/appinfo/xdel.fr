@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Effaceur de fichier ‚tendu, similaire … DR-DOS
+Keywords:       xdel, del, deltree, effacer
+End

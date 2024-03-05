@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    R‚cup‚rer des disques ou des fichiers perdus.
+Keywords:       r‚cup‚rer, disques, fichiers
+End

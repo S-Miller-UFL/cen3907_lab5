@@ -1,0 +1,16 @@
+Begin3
+Title:          Pico
+Version:        3.96a
+Entered-date:   2013-08-17
+Description:    simple text editor in the style of the Pine Composer
+Keywords:       editor
+Author:         Michael Seibel, Laurence Lundblade
+Maintained-by:  
+Primary-site:   http://gitlab.com/FDOS/editor/pico
+Alternate-site: 
+Original-site:  
+Platforms:      DOS
+Copying-policy: GNU General Public License
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

@@ -1,0 +1,17 @@
+Begin3
+Title:                Magnetic
+Version:              2.3a
+Entered-date:         2013-12-11
+Description:          An interpreter for Magnetic Scrolls adventures.
+Keywords:             
+Author:               Niclas Karlsson
+Maintained-by:        
+primary-site:         http://gitlab.com/FDOS/games/magnetic
+Alternate-site:       
+Original-site:        
+Platforms:            DOS, Amiga, MacOS X, Java, Maemo5, OpenPandora, Windows, GNU/Linux
+Copying-policy:       GNU General Public License, Version 2
+Defunct-Primary-Site: http://msmemorial.if-legends.org/magnetic.htm
+Modified-date:        2021-03-18.0
+Changes:              Update to package LSM metadata
+End

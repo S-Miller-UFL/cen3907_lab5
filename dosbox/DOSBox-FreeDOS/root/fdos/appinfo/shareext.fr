@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Extenseur de partage (Share)
+Keywords:       extension share
+End

@@ -1,0 +1,16 @@
+Begin3
+Title:          GNU chcp fonts
+Version:        1.0a
+Entered-date:   2013-06-04
+Description:    LOADFONT (GNUCHCP) raw EGA/VGA bitmap fonts for text modes.
+Keywords:       loadfont gnuchcp bitmap font ega vga screen
+Author:         Kurt Zammit
+Maintained-by:  Kurt Zammit
+Primary-site:   http://zammitsoft.freeservers.com
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/util/system/
+Original-site:  http://zammitsoft.freeservers.com
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

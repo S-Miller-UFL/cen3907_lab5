@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    un outil pour contr“ler les appareils connect‚s … LPT manuellement ou en fonction  du temps
+End

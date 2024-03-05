@@ -1,0 +1,5 @@
+Begin3
+Language:              fr, 850
+Description:           Contr“le/information APM/ACPI, contr“le de TSR/‚conomie d'‚nergie, vidage du tampon, red‚marrage... {un remplacement pour MS-DOS POWER}
+Keywords:              APM, ACPI, alimentation, batterie, ‚conomie d'‚nergie, ralentissement, ‚cran dpms, red‚marrage, arrˆt
+End

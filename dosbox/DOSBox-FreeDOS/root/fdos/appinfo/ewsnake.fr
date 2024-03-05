@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Un clone du jeu classique de serpent (aussi connu en tant que 'nibbles').
+Keywords:       serpent, nibble
+End

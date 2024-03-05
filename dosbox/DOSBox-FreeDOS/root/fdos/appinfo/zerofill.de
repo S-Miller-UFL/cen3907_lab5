@@ -1,0 +1,5 @@
+Begin3
+Language:       de, 858
+Description:    Fllt unbenutzten Speicher auf einen Datentr„ger mit Nullen
+Summary:        Fllt leeren Speicherplatz auf Datentr„gern mit Nullen auf. Hilft den benutzten Speicher von Virtuellen Maschinen zu reduzieren.
+End

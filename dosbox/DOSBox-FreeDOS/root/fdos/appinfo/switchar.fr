@@ -1,0 +1,4 @@
+Begin3
+Language:             fr, 850
+Description:          Afficher et d‚finir le switchar DOS
+End

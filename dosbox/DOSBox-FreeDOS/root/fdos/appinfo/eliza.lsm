@@ -1,0 +1,16 @@
+Begin3
+Title:          Eliza
+Version:        1.01a
+Entered-date:   2015-08-26
+Description:    one of the earliest computer chatterbots AI
+Keywords:       
+Author:         Michael Day
+Maintained-by:  
+primary-site:   http://gitlab.com/FDOS/games/eliza
+Alternate-site: 
+Original-site:  
+Platforms:      DOS
+Copying-policy: Public Domain
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

@@ -1,0 +1,16 @@
+Begin3
+Title:          EW Snake
+Version:        0.5a
+Entered-date:   2013-07-16
+Description:    A clone of the classic snake game (aka 'nibbles').
+Keywords:       snake, nibble
+Author:         Federico Marverti (yfede)
+Maintained-by:  
+primary-site:   http://gitlab.com/FDOS/games/ewsnake
+Alternate-site: 
+Original-site:  
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

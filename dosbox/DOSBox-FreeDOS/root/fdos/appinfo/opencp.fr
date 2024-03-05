@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    OpenCubic Player est un lecteur de musique multi-formats (mp3, wav, midi...)
+Keywords:       lecteur
+End

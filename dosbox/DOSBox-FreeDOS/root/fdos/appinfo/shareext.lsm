@@ -1,0 +1,14 @@
+Begin3
+Title:          shext
+Version:        2.0a
+Entered-date:   1998-04-15
+Description:    Share Extender
+Keywords:       share extension
+Author:         Gennady S. Kolesnik
+Maintained-by:  
+Primary-site:   http://gitlab.com/FDOS/util/shareext
+Platforms:      DOS, FreeDOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

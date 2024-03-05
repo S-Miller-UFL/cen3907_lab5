@@ -1,0 +1,5 @@
+Begin3
+Language:               fr, 850
+Description:            Copie les fichiers et les arborescences de r‚pertoires.
+Keywords:               freedos, copier, xcopy, kitten
+End

@@ -1,0 +1,4 @@
+Begin3
+Language:             fr, 850
+Description:          Enregistre une copie de son entr‚e dans un fichier, tout en imprimant une copie sur stdout
+End

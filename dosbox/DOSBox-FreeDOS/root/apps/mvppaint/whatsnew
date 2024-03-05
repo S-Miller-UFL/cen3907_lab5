@@ -1,0 +1,178 @@
+New Features in Version 2.4
+---------------------------
+The following is a list of features added for version 2.4 of MVP
+Paint.
+
+New Features:
+    -Directory traversing when loading files
+    -Fastgraph (c) fonts now loadable
+    -Text/Font Loading now merged, colors changeable within
+    -Merge/Blend option to overlay images with translucency
+    -Brighten/Darken routines
+    -Image Smoothing
+    -Image Contrasting (Sharpen or Blur)
+    -Windows bitmap file support (.BMP)
+    -3D developers file format support (.VGR) (rotated .VGA image)
+    -New menu with more logical function groupings
+    -Parameter passing refined; easier to use
+    -Color fill & replace can use saved images as patterns
+    -Palette matching for merge, fill and replace routines (if
+     applicable)
+    -Tile viewing
+
+Bug Fixes, Routine Changes:
+    -Random pixel replacement fixed
+    -Anti-aliasing lockup fixed
+    -Text color 0 (or too dark) now usable
+    -Outlining in zoomed mode doesn't leave stray boundaries
+    -Phase/Sunburst features always allow up to 99 colors
+
+New Feature Descriptions
+------------------------
+
+Directory traversing when loading files
+---------------------------------------
+Directory names and ".." for changing directories while working in
+MVP Paint.  This feature is available in the file load screens for
+all file types except animation.  For image files, this feature will
+leave you in the directory from which you loaded the file.  This
+will ensure that a future save will be placed in the same directory.
+When loading a PAL file or merging a VGA file into an existing one,
+you can load from other directories, but the current directory
+remains the same.  When loading a CHR file (this is a font file),
+the routine is the same as with palette files except that instead of
+starting in the current directory, MVP Paint first looks in the MVP
+Paint directory.  This encourages you to load font files in the MVP
+directory and not have to copy them anywhere else!  For loading
+animation files, you must change to the directory containing the AF
+file and run MVP Paint.
+
+Merge/Blend option to overlay images with translucency
+------------------------------------------------------
+Similar to "Merge File" in that you can use this to merge an image
+into the current work image.  Pixels equal to color 0 in the merged
+image will not be written.  The big difference is that instead of
+using a flat overwrite of pixels from the source to target image, an
+approximation pixel is overwritten instead.  The approximation pixel
+is calculated by the percentage of the background image you chose to
+keep.  The higher the percentage, the more transparent the resulting
+image.  The approximation resorts to the target images' palette.  If
+the source image has no palette, it is assumed that its palette is
+the same as the target.  This feature can be used to create some
+really nice special effects!  Note: as with the Merge feature, this
+feature only allows importation of 320x200 or less .VGA files.
+
+Brighten/Darken routines
+------------------------
+You can brighten or darken the entire image, a rectangular region,
+or a line within the image.  If you select to modify the whole
+image, then the palette is simply modified by the amount you chose.
+For example, if you chose to brighten by 8, all RGB components of
+the palette are incremented by 8. If you choose a rectangular region
+or line, all of the selected pixels are brightened or darkened by
+seeking the closest approximation to the current pixel increased or
+decreased by the appropriate amount.  For example, color 0, which
+usually has RGB components of 0,0,0 will be mapped to the color that
+is the closest fit to RGB components of 8,8,8 (If you chose to
+brighten by 8).
+
+Image Smoothing
+---------------
+You can smooth an image using either one of nine available smoothing
+methods or a customized version.  You can smooth either the whole
+image, the side edges, the top and bottom edges, or all four edges.
+You can also select the edge depth and whether or not pixels wrap
+around to the other side of the image to compute new values.  This
+last feature is of particular use if you are working on tiled
+images.  The main feature of this routine consists of a 9x9 grid
+with coordinate 5x5 being the center.  This central pixel
+corresponds to the pixel to be modified, and the values within the
+grid refer to the 'weights' given each relative pixel in the outcome
+pixel.  Therefore, if you put a 1 in grid location 5,5, and a 0 in
+all other grid locations, there will be no change to your image.
+Try loading several smoothing settings and you will see how various
+weights effect outcome.
+
+Image Contrasting (Sharpen or Blur)
+-----------------------------------
+Instead of blending pixels for a smoother image, which can be done
+with image smoothing, image contrasting, or sharpening, focuses on
+the images palette.  You can choose to make colors within the
+palette more divergent or convergent.  The former will result in a
+crisper, sharper image while the latter will seemingly blur or
+"gray" the image out.  After choosing this option, you must select a
+divergence factor.  Values less than one result in image blurring
+while values greater than one will sharpen the image.  You can also
+choose to sharpen all of the Red, Green or Blue components at once
+or separately.  Most often, you will just want to sharpen the image
+in general.  But if, for example, you want to bring out the red in
+the image and make it a little stronger, you can choose to just
+sharpen reds.  Like image smoothing, this feature is most useful
+with digitized images.
+
+Windows bitmap file support (.BMP)
+----------------------------------
+Now all files can be loaded and saved in the Windows 3.0 and 3.1
+uncompressed bitmap (with palette) file format.  EGA bitmaps are not
+importable.
+
+3D developers file format support (.VGR) (rotated .VGA image)
+-------------------------------------------------------------
+If you are developing a 3D game ingine, you might want to avoid the
+process of having to rotate all of your .VGA images at runtime.
+This feature saves and loads images that are the same as .VGA images
+with three exceptions.  First, the image is rotated 90 degrees,
+therefore the top of the new image is now what had been the right
+side.  3D developers, you'll know why this is necessary!  Second,
+for useful purposes, the image size is limited to 200x200.  You
+shouldn't need a 3D bitmapped image larger than that!  Third, no
+palettes are saved with VGR images.
+
+New menu with more logical function groupings
+---------------------------------------------
+To improve the logic of using the menu, and to make room for new
+features, several changes have been made to the menu.  Most
+noticeable will be the new Text and Fx icon buttons.  Other features
+have been regrouped with other routines that are similar in nature.
+
+Parameter passing refined; easier to use
+----------------------------------------
+The parameter passing feature of MVP Paint no longer requires that a
+prefix be used for filenames.  File extensions can be ignored if
+only one parameter is being passed and that is the name of an image.
+MVP Paint will look for the file using the following criteria:
+          VGA-> PCX -> GIF -> BMP -> VGR
+For example, if you type "MVPPAINT ROSE", and there are files called
+ROSE.PCX and ROSE.BMP in the current directory, ROSE.PCX will be
+loaded.  If you type "MVPPAINT ROSE.BMP" then ROSE.BMP will be
+loaded.  To specify palettes, you must use the file extension.  For
+example, "MVPPAINT MYPAL.PAL" will load the palette called MYPAL in
+the current directory.  If you type "MVPPAINT ROSE MYPAL.PAL", MVP
+Paint will load the ROSE.PCX image, and then load the palette next.
+
+Color Fill & Replace can use saved images as patterns
+-----------------------------------------------------
+The fill and replace routines now allow you to specify a saved image
+instead of performing a single color fill.  By choosing "PATTERN"
+instead of "COLOR", you will have the opportunity to choose a .VGA
+file from the disk drive.  After doing so, the routines will perform
+their appropriate functions, but instead of writing a single color,
+they will write pixels from the image that you specified.
+
+Palette matching for merge, fill and replace routines (if applicable)
+---------------------------------------------------------------------
+Often, saved images will have different palettes than the image you
+are currently working on.  If you attempt to merge an image with its
+own palette, MVP Paint will now ask you if you want to try to match
+the incorporated image to the current palette.
+
+Tile viewing
+------------
+When working on wall or floor tiles for game development, you might
+find it useful to see if the edges match up, as well as what the
+overall layout would look like.  This feature lets you view your
+image with tiles of the same image all around it if it is smaller
+than 160 x 100.  For SVGA images, you can view the image in a SVGA
+mode if this is the Professional version of MVP Paint.  This option
+can be called through the menu or invoked using the Alt-V macro.
+

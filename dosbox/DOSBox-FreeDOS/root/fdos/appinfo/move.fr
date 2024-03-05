@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    D‚place les fichiers d'ici … l
+Keywords:       freedos, d‚placer
+End

@@ -1,0 +1,17 @@
+Begin3
+Title:                 NLSFunc
+Version:               0.4a
+Entered-date:          2006-08-22
+Description:           NLSFUNC adds NLS (National Language Support) functionality
+Keywords:              freedos, nls, country, display, mode
+Author:                Eduardo Casino-Almao <mail@eduardocasino.es>
+Maintained-by:         Eduardo Casino-Almao <mail@eduardocasino.es>
+Primary-site:          http://gitlab.com/FDOS/base/nlsfunc
+defunct-site:          http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/nlsfunc
+Platforms:             DOS (nasm)
+Copying-policy:        GNU General Public License, Version 2
+Defunct-Original-Site: https://www.eduardocasino.es/code/nlsfunc/
+Defunct-Wiki-Site:     http://wiki.freedos.org/wiki/index.php/NlsFunc
+Modified-date:         2021-03-18.0
+Changes:               Update to package translations and LSM metadata
+End

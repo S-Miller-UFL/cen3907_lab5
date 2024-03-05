@@ -1,0 +1,15 @@
+Begin3
+Title:          FDSHELL
+Version:        0.10beta (rev A)
+Entered-date:   2016-04-28
+Description:    DOSSHELL graphical user interface implementation for FreeDOS
+Keywords:       DOSSHELL GUI FreeDOS DOS
+Author:         Emanuelle Cipolla <emanuele_cipolla@hotmail.com>
+Maintained-by:  Emanuelle Cipolla <emanuele_cipolla@hotmail.com>
+Primary-site:   http://fdshell.sourceforge.net/
+Alternate-site: http://fdshell.sourceforge.net/
+Platform:       DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package translations and LSM metadata
+End

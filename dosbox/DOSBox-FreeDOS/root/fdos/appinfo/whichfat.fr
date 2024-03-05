@@ -1,0 +1,5 @@
+Begin3
+Language:             fr, 850
+Description:          D‚tection de la prise en charge FAT32 par le noyau et d‚tection de type FAT (12-32) par lecteur
+Keywords:             freedos, fat, disque
+End

@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    p7zip est un portage rapide de 7za.exe (version ligne de commande de 7zip). 7-Zip est le gestionnaire d'archives avec le taux de compression le plus ‚lev‚.
+End

@@ -1,0 +1,6 @@
+Begin3
+Language:       fr, 850
+New:            *
+Description:    EV4DE (prononc‚ 'evade') est un jeu qui consiste … voler dans l'espace et ‚viter les ast‚ro‹des. Jouez trois modes de jeu diff‚rents, d‚bloquez des vaisseaux suppl‚mentaires et obtenez un score ‚lev‚ÿ! Vous pouvez jouer … EV4DE avec un clavier, mais je recommande fortemenet un joystick ou une manette de jeu.
+Keywords:       jeux
+End

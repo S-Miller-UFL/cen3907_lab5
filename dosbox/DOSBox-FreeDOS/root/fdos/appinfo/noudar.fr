@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+New:            *
+Description:    A first person dungeon-crawler with a taste of DOS-gaming, written in C++14(ish), using either OpenGL 1.1 or OpenGL ES 2.0.
+End

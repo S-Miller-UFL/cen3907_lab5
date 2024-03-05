@@ -1,0 +1,14 @@
+Begin3
+Title:          HEAD
+Version:        1.0a
+Entered-date:   2003-03-18
+Description:    displays a part of a file
+Keywords:       head
+Author:         Wolf Bergenheim
+Maintained-by:  Wolf Bergenheim
+Primary-site:   http://gitlab.com/FDOS/unix/head
+Platforms:      DOS, FreeDOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

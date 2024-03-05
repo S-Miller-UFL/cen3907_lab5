@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    un jeu Sudoku 16 bits pour DOS et les processeurs 8086/8088
+Keywords:       sudoku,jeux
+End

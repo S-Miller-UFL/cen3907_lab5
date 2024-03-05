@@ -1,0 +1,16 @@
+Begin3
+Title:                 Boom
+Version:               2.02a
+Entered-date:          2013-02-01
+Description:           A GPL port of the Doom source code. Packaged with FreeDoom for a complete gameplaying experience.
+Keywords:              doom,boom,freedoom
+Author:                Jim Flynn, Stan Gula, Ty Halderman, Lee Killough, Rand Phares
+Maintained-by:         
+Primary-site:          http://gitlab.com/FDOS/games/boom
+Alternate-site:        
+Platforms:             DOS
+Copying-policy:        GNU General Public License, Version 2
+Defunct-Original-Site: http://www.teamtnt.com/boompubl/boom2.htm
+Modified-date:         2021-03-18.0
+Changes:               Update to package LSM metadata
+End

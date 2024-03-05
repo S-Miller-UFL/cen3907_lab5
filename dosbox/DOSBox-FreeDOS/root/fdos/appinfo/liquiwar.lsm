@@ -1,0 +1,16 @@
+Begin3
+Title:          Liquid War
+Version:        5.6.3a
+Entered-date:   2013-12-17
+Description:    A unique multiplayer wargame.
+Keywords:       
+Author:         Christian Mauduit
+Maintained-by:  
+Primary-site:   http://www.ufoot.org/liquidwar
+Alternate-site: 
+Original-site:  
+Platforms:      DOS, Windows, GNU/Linux, FreeBSD, Mac OS X
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

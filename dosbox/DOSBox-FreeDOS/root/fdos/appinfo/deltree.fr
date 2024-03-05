@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Supprimer des fichiers et des r‚pertoires avec tous les fichiers et sous-r‚pertoires inclus !
+Keywords:       freedos, effacer,arborescence
+End

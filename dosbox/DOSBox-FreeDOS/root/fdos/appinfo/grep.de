@@ -1,0 +1,5 @@
+Begin3
+Language:       de, 858
+Description:    Grep sucht nach Dateien (oder stdin) nach Zeilen, die öbereinstimmen. Es kann nach einfachen Strings aber auch nach RegulÑren AusdrÅcken gesucht werden.
+Primary-site:   http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/grep.html
+End

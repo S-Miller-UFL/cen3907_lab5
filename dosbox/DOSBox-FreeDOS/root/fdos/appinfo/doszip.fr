@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Petit gestionnaire de fichiers compatible LFN avec un gestionnaire zip int‚gr‚. Compil‚ avec JWasm et OpenWatcom. Comprend toutes les sources pour DOS et Windows
+End

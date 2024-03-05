@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    D‚finit ou modifie le libell‚ du volume de disque
+Keywords:       ‚tiquette, disk volume
+End

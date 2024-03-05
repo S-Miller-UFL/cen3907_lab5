@@ -1,0 +1,16 @@
+Begin3
+Title:          CDP
+Version:        A4 (rev A)
+Entered-date:   2016-07-17
+Description:    the command line driven audio CD player for DOS
+Keywords:       cdp, audio, cd-rom
+Author:         Steffen.Kaiser _AT _ fh-rhein-sieg.de
+Maintained-by:  Steffen.Kaiser _AT _ fh-rhein-sieg.de
+Primary-site:   
+Alternate-site: 
+Original-site:  http://www2.inf.fh-rhein-sieg.de/~skaise2a/ska/sources.html#cdp
+Platforms:      DOS, FreeDOS
+Copying-policy: Freeware
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

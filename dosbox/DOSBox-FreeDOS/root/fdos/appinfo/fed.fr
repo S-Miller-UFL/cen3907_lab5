@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Un ‚diteur de texte avec coloration syntaxique et plus encore
+Keywords:       texte, ‚diteur
+End

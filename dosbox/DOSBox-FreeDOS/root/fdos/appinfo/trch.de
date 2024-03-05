@@ -1,0 +1,6 @@
+Begin3
+Language:               de, 858
+Description:            Wandelt Dateien vom DOS-Format ins UNIX-Format und umgekehrt. Žhnlich, aber nicht das selbe, wie das UNIX-Tool 'tr'. Enth„lt Cats GNU LGPL.
+Primary-site:           http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/util/user/trch/
+Original-site:          http://www.freedos.org/jhall/
+End

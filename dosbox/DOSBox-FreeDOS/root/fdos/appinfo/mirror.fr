@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Enregistre des informations au sujet du disque pour une ‚ventuelle r‚cup‚ration de donn‚es.
+End

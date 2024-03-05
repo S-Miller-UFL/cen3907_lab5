@@ -1,0 +1,8 @@
+Begin3
+Language:       de, 858
+Description:    jemm Memory Manager
+Keywords:       HIMEM + EMM386, STABLE, kompatiblit„t, memory manager, jemmex, himemx, emm386, himem
+Maintained-by:  Japheth <mail -at- japheth.de>
+Primary-site:   http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/jemm.html
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/emm386/jemm386
+End

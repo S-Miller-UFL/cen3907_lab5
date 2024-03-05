@@ -1,0 +1,36 @@
+
+[USAGE]
+
+--
+
+7z Decoder 17.00 beta (x86) : Igor Pavlov : Public domain : 2017-04-29
+
+Usage: 7zDec <command> <archive_name>
+
+<Commands>
+  e: Extract files from archive (without using directory names)
+  l: List contents of archive
+  t: Test integrity of archive
+  x: eXtract files with full paths
+
+--
+
+
+[LINKS]
+
+http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/util/file/7zip/
+http://sourceforge.net/projects/p7zip
+http://sourceforge.net/projects/sevenzip
+http://www.7-zip.org
+
+
+[NOTES]
+
+So I grabbed the sources from LZMA SDK 17.00 beta and very slightly
+modified them for better simplicity (and 8.3 friendliness). I also
+heavily rewrote the makefile.
+
+I've successfully compiled it with GCC 7.20 (/current/ DJGPP 2.05)
+using experimental COFF smartlinking. This release also avoids
+*printf(), so it's noticeably smaller than before.
+

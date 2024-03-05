@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    un ‚diteur similaire … emacs pour DOS (comme GNU Emacs)
+Keywords:       ‚diter, ‚diteur, unicode
+End

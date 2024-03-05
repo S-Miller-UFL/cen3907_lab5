@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Extenseur de m‚moire sup‚rieure (Upper Memory, UMB) pour processeurs 80286, 80386, 80486
+Keywords:       UMB,m‚moire,gestionnaire
+End

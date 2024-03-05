@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Collection de petits utilitaires pour les fichiers batch
+End

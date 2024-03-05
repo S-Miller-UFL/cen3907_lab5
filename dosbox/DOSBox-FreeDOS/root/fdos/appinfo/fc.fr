@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Utilitaire de comparaison de fichiers
+Keywords:       freedos, fichier, comparer, fc
+End

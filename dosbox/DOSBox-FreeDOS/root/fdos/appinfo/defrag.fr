@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Utilitaire de d‚fragmentation.
+Keywords:       d‚fragmenteur
+End

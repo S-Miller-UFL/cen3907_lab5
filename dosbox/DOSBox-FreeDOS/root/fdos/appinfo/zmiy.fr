@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Un jeu de serpent (similaire … Nibbles) pour DOS et 8086
+Keywords:       nibbles, serpent
+End

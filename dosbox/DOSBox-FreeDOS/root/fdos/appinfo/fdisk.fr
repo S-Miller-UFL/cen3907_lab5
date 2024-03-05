@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Outil Fixed disk - cr‚er des partitions.
+Keywords:       fdisk, formater, disque dur, partition, fat16, fat32, partition, mbr
+End

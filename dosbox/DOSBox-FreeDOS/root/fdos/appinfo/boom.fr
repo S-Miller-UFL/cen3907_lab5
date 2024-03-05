@@ -1,0 +1,4 @@
+Begin3
+Language:              fr, 850
+Description:           Un portage GPL du code source de Doom. Empaquet‚ avec FreeDoom pour une exp‚rience de jeu complŠte.
+End

@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    une calculatrice … grands nombres avec virgule flottante qui imite les calculatrices '… rouleaux de papier'. 8086+
+Keywords:       calc, calculatrice
+End

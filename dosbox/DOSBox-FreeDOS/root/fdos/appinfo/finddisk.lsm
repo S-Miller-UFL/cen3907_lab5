@@ -1,0 +1,15 @@
+Begin3
+Title:                FindDisk
+Version:              2005-03-23a
+Entered-date:         2016-06-26
+Description:          small utility to locate a disk by label
+Keywords:             freedos, disk
+Author:               Eric Auer <eric (at) coli.uni-sb.de>
+Maintained-by:        Eric Auer <eric (at) coli.uni-sb.de>
+Original-site:        http://www.auersoft.eu/soft/
+Platform:             DOS (nasm assembler)
+Copying-policy:       Public Domain
+Defunct-Primary-Site: http://www.coli.uni-sb.de/~eric/stuff/soft/
+Modified-date:        2021-03-18.0
+Changes:              Update to package LSM metadata
+End

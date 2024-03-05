@@ -1,0 +1,5 @@
+Begin3
+Language:       de, 858
+Description:    Erzeugt BSD-Checksummen von Dateien
+Summary:        bsum ist ein sehr kleines (256bytes!) Tool um BSD-Checksummen zu erzeugen
+End

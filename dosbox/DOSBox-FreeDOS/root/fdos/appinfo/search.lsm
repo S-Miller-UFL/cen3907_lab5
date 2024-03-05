@@ -1,0 +1,15 @@
+Begin3
+Title:                Search
+Version:              1.0a
+Entered-date:         2003-04-01
+Description:          Locates files on your computer
+Keywords:             freedos, search
+Author:               Joe Cosentino <onehardmarine@attbi.com>
+Maintained-by:        Joe Cosentino <onehardmarine@attbi.com>
+defunct-Primary-site: http://www.geocities.com/xsaintx69/freedos
+Primary-site:         http://gitlab.com/FDOS/util/search
+Platforms:            DOS
+Copying-policy:       GNU General Public License, Version 2
+Modified-date:        2021-03-18.0
+Changes:              Update to package LSM metadata
+End

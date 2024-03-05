@@ -1,0 +1,16 @@
+Begin3
+Title:          elvis
+Version:        2.2a
+Entered-date:   2013-12-08
+Description:    a clone of vi/ex, the standard UNIX editor. Supports nearly all vi/ex commands
+Keywords:       vi, editor
+Author:         Steve Kirkendall
+Maintained-by:  
+Primary-site:   http://gitlab.com/FDOS/editor/elvis
+Alternate-site: 
+Original-site:  
+Platforms:      
+Copying-policy: Clarified Artistic License
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

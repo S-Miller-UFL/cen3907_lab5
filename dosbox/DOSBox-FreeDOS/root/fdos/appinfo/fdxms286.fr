@@ -1,0 +1,4 @@
+Begin3
+Language:               fr, 850
+Description:            Pilote XMS de remplacement pour les systŠmes '286 ou sup‚rieurs.
+End

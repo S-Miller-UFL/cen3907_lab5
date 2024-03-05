@@ -1,0 +1,15 @@
+Begin3
+Title:          Clam Anti-Virus (ClamAV)
+Version:        0.95.3/9047/Wed Feb 25 21:59:41 2009 (rev A)
+Entered-date:   2010-02-22
+Description:    ClamAV scans files and directories for viruses
+Keywords:       clamav, av, anti-virus, virus
+Author:         ClamAV Team (www.clamav.net)
+Maintained-by:  ClamAV Team (www.clamav.net), DOS port by Blairdude@gmail.com
+Primary-site:   http://gitlab.com/FDOS/util/clamav
+Original-site:  www.clamav.net
+Platforms:      Unix, Windows, BeOS, DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

@@ -1,0 +1,7 @@
+Begin3
+Language:       de, 858
+Description:    MEMTESTE ist ein Programm zum Testen des Hauptspeichers auf PC kompatiblen Klonen mit Intel 386 oder besser.
+Keywords:       RAM test, memtest, Speichertest
+Author:         Eric Auer 2003
+Primary-site:   http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/memteste.html
+End

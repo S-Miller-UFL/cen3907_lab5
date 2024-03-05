@@ -1,0 +1,17 @@
+Begin3
+Title:          Beyond the Titanic
+Version:        1a
+Entered-date:   2013-12-10
+Description:    Text based Infocom style adventure game.
+Keywords:       
+Author:         Scott Miller
+Maintained-by:  
+Primary-Site:   http://gitlab.com/FDOS/games/btitanic
+defunct-site:   http://www.3drealms.com/downloads.html
+defunct-site:   http://en.wikipedia.org/wiki/List_of_minor_Apogee_Software_video_games#Beyond_the_Titanic
+Original-site:  
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

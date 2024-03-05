@@ -1,0 +1,8 @@
+Begin3
+Language:       de, 858
+Description:    Eine Sammlung von Tools, die das beim Schreiben von Batch-Dateien viele M”glichkeiten bieten. Text-User-Interfaces und andere Funktionen.
+Changes:        Update to vchoice for better color support. Also, a brand new utility for processing or executing lists of items called veach.
+Keywords:       dos 16 bit batch vask vchoice vecho vpause vframe vmath vline vprogres veach
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/utils/v8power/
+Original-site:  http://up.lod.bz/V8Power/
+End

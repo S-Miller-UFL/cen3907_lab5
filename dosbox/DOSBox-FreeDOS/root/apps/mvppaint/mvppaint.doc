@@ -1,0 +1,778 @@
+           MVP Paint - 256 Color VGA Image Workshop
+                      by David Johndrow
+            Copyright 1993-1996 Pod Bay Enterprises
+                  An MVP Software Production
+
+MVP Paint is shareware.  You may freely try it for no more than 30
+days.  If you like it or find it useful, then you must register with
+MVP Software.  To "register" a shareware program means to purchase
+it directly from the developer.  (Shareware programs are evaluation
+versions only, which means you have the right to try them, but after
+trying them you must either register them with the author or delete
+them from your system.  It is unlikely that anyone will check up on
+you, so shareware works because of the honesty of users.)  When you
+register you will receive MVP Paint Professional, which includes
+many additional features not found in the shareware version.  The
+registered version is described below.
+
+                    MVP Paint Professional
+
+If you wish to continue to use MVP Paint, you must register by
+purchasing MVP Paint Professional.  MVP Paint Professional is not a
+shareware product.  It is the "big brother" registered version of
+MVP Paint, and is commercial only.  MVP Paint Professional includes
+a printed manual, free technical support for one year, the MVP
+Toolkit, and the Pod Bay Graphics Library.  The toolkit can modify
+palettes, convert color images to greyscale images (2 to 64 shades),
+display images, downscale images using a sophisticated anti-aliasing
+technique, and even turn your image into compilable BASIC, Pascal,
+or C code!  This code can then be compiled, or imported into an
+existing program.
+
+In addition to the toolkit, MVP Paint Professional includes the Pod
+Bay Graphics Library.  This library consists of 30 linkable graphics
+routines for Pascal and C programmers that provide a quick and easy
+way to write graphics programs in VGA mode 19 (320x200x256).  These
+routines are fast and provide quick bypass to the .BGI files that
+you might otherwise have to load.  The image routines found in these
+libraries use images that are created by MVP Paint and have a .VGA
+file extension.
+
+Here is a list of the routines included in the Pod Bay Graphics
+Library: file detection; set display to VGA mode; set display to
+text mode; description of returned error code; draw a pixel at
+location x,y in the desired color; return the value of the color
+located at x,y; draw a line from point a to b in the desired color;
+draw a rectangle; draw a circle; draw an ellipse; clear the screen
+while in 320x200 VGA mode; load a palette from disk; set the VGA
+card to the desired palette; read VGA card to get current status;
+save a palette to disk; set the VGA card to an empty palette so that
+screen drawing can occur invisibly (necessary for screen fade in);
+fade in screen; fade out screen; set new RGB parameters; determine
+bitmap variable size of an image; load an image from disk; load
+specially condensed graphics files; put image on screen; put partial
+image on screen for animation; grab image and place it in a pointer
+variable; put an image to the screen without writing color 0 (for
+animation over backgrounds); put a compressed image to the screen
+for animation; create a dynamic variable that holds a bitmap.
+
+For advanced users, the actual source code used for the graphics
+libraries is also available.  For a $100 one-time license fee (in
+addition to the purchase price for MVP Paint Professional), you will
+receive both the Pascal and C source code found in the graphics
+libraries.  Payment of the licensing fee not only gets you the
+source code, it also gives you a license to use this code in any
+application or software package you create.  You may not, however,
+sell or distribute the source code files themselves, or source files
+modified from the Pod Bay source files.
+
+For the low purchase price of $49.95 plus $4.00 shipping (in the
+US), you will receive the latest version of MVP Paint Professional
+with printed manual and 1 year free technical support, the MVP
+Toolkit, and the Pod Bay Graphics Library.
+
+To order, call 800-968-9684 toll-free 24 hours a day.  Please have
+your Master Card or Visa ready when you call.  Or fill out the order
+form in this manual and fax it to: 616-245-3204.  Make sure your
+credit card number and expiration date are legible.  Or if you
+prefer mail the order form and your check to: MVP Software, 1035
+Dallas SE, Grand Rapids, MI 49507-1407.
+
+For overseas orders or technical support call 616-245-8376.
+   
+             How to Register Online and Receive
+             MVP Paint Professional Immediately!
+
+MVP is pleased that all MVP shareware products can now be registered
+online, with immediate download of the registered version.  This
+service is available to anyone in the world who has a Master Card or
+Visa and can call from a modem.  To register MVP Paint Professional
+and download it immediately, or any MVP shareware game, call
+InterComm at 1-310-858-6200.  Once you are connected, go to the MVP
+section.  There you may download any MVP shareware program free of
+charge, or you may order and immediately download any MVP
+non-shareware title or registered title.  It's easy and it's fun, so
+call today.
+
+         Download All the Latest MVP Shareware Games FREE
+
+If your favorite BBS doesn't have an MVP file section, then you may
+be missing some great shareware.  To get all the latest and greatest
+MVP shareware releases, call one of the leading boards listed below,
+and check out the FREE MVP file area.
+
+In Grand Rapids, Michigan -- Ryan's Bar (616) 456-1845
+In Milwaukee, Wisconsin -- Exec-PC (414) 789-4360
+In New York, New York -- The Invention Factory (212) 274-8110
+In Boston, Massachusetts -- Channel 1 (617) 354-3230
+In Kansas City, Missouri -- Sound Advice (816) 436-8029
+In Palo Alto, California -- Space BBS (415) 323-4193
+In Reston, Virginia -- World Data Network (703) 620-8900
+
+Or call Intercomm Online at (310) 858-6200, the new source for
+all of MVP's shareware and registered software.
+
+Even better, tell your favorite sysop about the MVP Distribution
+Network and how he can be assured of getting all of the latest MVP
+shareware hits as soon as they are released.  See the SYSOP.DOC file
+for details.
+
+                      MVP is Now on CompuServe!
+
+You can get all of the latest MVP shareware releases, and discuss
+MVP titles directly with the authors on MVP's new section on the
+world's largest online information network, CompuServe.  Just type
+GO MVPSOFT to get to our section!  If you are not a CompuServe
+member you are eligible to receive a FREE trial membership,
+including software and online time worth almost $55!  That's right,
+you get the CompuServe Information Manager software for DOS or
+Windows, which normally costs $29.95.  Plus you get a free first
+month of online access, worth $9.95.  And to top it off, you get a
+usage credit of $15 of additional online time.
+
+To take advantage of this free trial membership to the largest
+online service in the world, call 800-848-8199.  Ask for rep 671.
+And then GO MVPSOFT and talk to the MVP team on CompuServe.
+
+       MVP is Now on the Internet and the World Wide Web!
+
+You can get all of the latest MVP shareware releases, find out news
+of future activities, and give feedback to MVP on the Internet.  To
+visit our new home page, just set your WWW browser to this URL:
+
+                  http://www.mvpsoft.com
+
+While there, you can see descriptions of all our releases, download
+the shareware versions with a click of your mouse button, and check
+out full color screen shots for all of our games.  Be sure to leave
+feedback telling us how you like our page!  
+
+If you prefer using direct ftp to get our files, you can find them
+at the following sites:
+
+                 ftp.mvpsoft.com/pub/mvpsoft
+                 ftp.he.net/pub/mvpsoft
+                 ftp.uwp.edu/pub/msdos/games/mvp
+                 archive.uwp.edu/pub/msdos/games/mvp
+
+Users accessing either of the last two sites on this list must
+include a dash in front of their email addresses for the password.
+Without that dash the software won't give you access.
+
+These sites also have many mirrors, so just look for a game site
+with an MVP directory, and you'll be assured of getting the best
+games around!
+
+                         IMPORTANT
+
+IF YOU NEED TECHNICAL SUPPORT INSTALLING OR USING THIS PRODUCT, DO
+NOT CALL OUR 800 TOLL-FREE ORDER NUMBER.  THIS NUMBER IS FOR ORDERS
+ONLY.  THE PEOPLE WHO ANSWER THIS ORDER LINE HAVE NO TECHNICAL
+INFORMATION AND WILL NOT BE ABLE TO ANSWER YOUR QUESTIONS.  THEY
+WILL SIMPLY REFER YOU TO THIS NUMBER:
+
+                         616-245-8376
+
+SO PLEASE CALL THIS NUMBER THE FIRST TIME AND SAVE YOURSELF THE TIME
+AND TROUBLE OF MAKING TWO PHONE CALLS.  THANKS.
+
+MVP Paint is a full-featured graphics workshop.  With MVP Paint you
+can easily create or modify graphics or animation files.  It
+supports a variety of advanced features, and has been used to
+develop two MVP Software games, Sand Storm and Corncob 3D.
+Originally created as an in-house game development tool, it has been
+tested extensively in real-world applications.  Game designers and
+others demanding performance will like its combination of features
+and ease of use.
+
+IF YOU HAVE PURCHASED MVP PAINT IN A STORE OR FOUND IT ON A CD-ROM
+------------------------------------------------------------------
+If you have purchased MVP Paint in a store or other retail setting,
+or if you have found it on a CD-ROM, please contact MVP Software at
+(616) 245-8376.  Please have the address and phone number of the
+CD-ROM publisher, or of the company that has sold it in the retail
+store.  If we determine that the company or publisher is
+distributing MVP Paint without written authorization from MVP
+Software, we will send you a free computer game as a thank-you for
+helping us eliminate unauthorized distribution of this software.
+
+VENDORS, DISTRIBUTORS, BBS SYSOPS, & CD-ROM PUBLISHERS
+------------------------------------------------------
+The shareware version of MVP Paint may be distributed by catalog
+shareware vendors and BBS sysops as long as the distribution terms
+outlined in LICENSE.DOC are adhered to.  These terms are very
+simple, and we encourage BBS and catalog distribution.  UNDER NO
+CIRCUMSTANCES MAY MVP PAINT BE DISTRIBUTED IN A RETAIL STORE OR
+ENVIRONMENT, OR ON A CD-ROM, WITHOUT WRITTEN AUTHORIZATION FROM MVP
+SOFTWARE.  Please see LICENSE.DOC for details.
+
+              MVP Paint Professional Order Form
+
+YES!  I would like the benefits and increased productivity of MVP
+Paint Professional, including the ability to view Super VGA images
+in Super VGA mode, the MVP Toolkit, and the Pod Bay Graphics
+Library.  Please rush me the entire package by first class mail.
+
+Name ______________________________________________________________
+
+Address ___________________________________________________________
+
+City _______________________________ State ______ ZIP _____________
+
+Country (if outside USA) __________________________________________
+
+Price of MVP Paint Professional                              $49.95
+Shipping and Handling (US)                                     4.00
+Shipping and Handling (Canada)                                 5.00
+Shipping and Handling (all other countries)                    6.00
+Michigan residents add sales tax                               3.24
+                                                              -----
+Make check payable to "MVP Software"        Total enclosed:  $
+Master Card/Visa information (credit card orders only)
+
+Card number __________________________________________
+
+Expiration date ______________________________________
+-------------------------------------------------------------------
+VOLUNTARY QUESTIONS:  Please help us determine what features you
+====================  would like in future products.
+
+Circle what type of equipment you have:  386  486SX  486DX  Pentium
+Circle the speed of your computer(Mhz):  25  33  40  50  66  90  ___ 
+Circle any that apply:   Joystick   Mouse   Modem_______   SVGA card
+                                                 (speed)
+
+Sound Capability:   Adlib   Sound Blaster   SB Pro   SB AWE32
+    PC speaker only  Other ____________________________________
+
+Where did you get MVP Paint?
+Friend   CompuServe   AOL   Prodigy   Channel 1   Invention Factory
+World Data Network   Ryan's Bar   Exec-PC   Space BBS   Sound Advice
+
+BBS (name): _______________________  phone # _______________________
+    address ________________________________________________________
+
+Shareware Distributor (name): ______________________________________
+
+--------------------------------------------------------------------
+Send this order form and your check to:
+
+MVP Software, 1035 Dallas S.E., Grand Rapids, MI  49507-1407
+Checks must be in US funds and drawn on a US or Canadian bank.
+
+US or Canada 24-hour order line: 800-968-9684.  Fax: 616-245-3204.
+Tech support, information, or overseas order line: 616-245-8376.
+
+                       Ordering Information
+
+MVP Paint Professional ver 2.4 is available from the following
+authorized distributors:
+
+In the United States:
+--------------------
+MVP Software
+1035 Dallas SE
+Grand Rapids, MI 49507-1407
+phone: 800-968-9684 24-hour order line only
+       (616) 245-8376 information, technical support, or orders.
+fax: (616) 245-3204
+order price: $49.95 plus $4.00 shipping in the US, $5.00 shipping to
+Canada, $6.00 shipping everywhere else.  Michigan residents please
+add appropriate sales tax.
+
+In Australia:
+------------
+Budgetware
+9 Albermarle St
+Newtown NSW 2042
+phone: (02) 519-4233          Fax: (02) 516-4236
+order price: $A69.00 (includes shipping)
+
+In the United Kingdom:
+---------------------
+Atlantic Coast Plc.
+Station Rd.
+Colyton, Devon, EX13 6HA
+phone: 1297 552222            Fax: 1297 553366
+order price: L44 (includes shipping and taxes)
+Dealers please enquire.
+
+In Denmark and all of Scandanavia:
+---------------------------------
+Pro-Soft
+Benloese Skel 4 G
+DK 4100 Ringsted
+phone: 53 61 90 42             Fax: 53 61 93 91
+order price: 354,00 kr. + VAT 25% + s/h 25,00
+
+In Japan:
+--------
+P. & A. Company Ltd
+302 Bellwins, 1367-23
+Nakagami, Akishima
+Tokyo 196
+phone: 425-46-9141			   Fax: 425-46-9142
+BBS: 425-46-9143
+order price: 7560 yen includes shipping and taxes
+
+Germany, Austria, and Switzerland
+---------------------------------
+Topware PD-Service GmbH
+Quadrat 0 3, 2
+68161 Mannheim
+phone: (0621) 1 26 73 30       Fax: (0621) 1 26 73 33
+order price: 79 DM (includes taxes) plus 6 DM shipping
+
+The Netherlands and Belgium
+---------------------------
+CSD -- Computer Solutions Dorth
+Postbus 59
+NL-7213 ZH Gorssel
+THE NETHERLANDS
+phone: (+31)0575.494.545       Fax: (+31)0575.491.222
+order price: fl. 112,00 (includes VAT and shipping)
+
+Italy
+-----
+Systems Comunicazioni srl
+via Olanda
+6 - 20083 Gaggiano
+phone: (02) 9084 1814			Fax: (02) 9084 1682
+BBS: (02) 9084 1811
+order price: Lire 105.000 IVA inclusa
+
+Spain
+-----
+Friendware S.L.
+C/ Miguel Angel, 6 2-5
+28010 Madrid
+phone: (91) 308 34 46			Fax: (91) 308 52 97
+CIS: 100413,1667
+order price: 6.800 Pts
+
+GENERAL HELPFUL INFORMATION
+---------------------------
+The MVP Paint graphics program is designed to operate stand-alone.
+This means that you can install it somewhere on the path and then
+call it up by simply typing MVPPaint at any time.  If you are new to
+DOS, or if you have no hard drive, you may want to run MVP Paint
+from a floppy disk.  The DOS manuals might prove useful for
+determining what the path is as well as how to change it, but it is
+not necessary to place MVP Paint in the path.  Once the installation
+program has copied the MVPPAINT.EXE file and all of the auxillary
+files to the desired location, you are ready to run it.  Even though
+MVP Paint does not need to be in the current directory, be aware
+that all files (palette and image) are loaded and saved in the
+current directory.
+
+Before running MVP Paint, run CONFIGUR and answer a few questions
+about your system.  This will allow MVP Paint to operate in as
+efficient manner as possible.
+
+To begin the program, type MVPPAINT, and press the ENTER key.
+
+MVP Paint may not recognize some really old mouse drivers.  If you
+experience an invisible mouse, try getting hold of a newer mouse
+driver to correct this problem.
+
+FEATURES
+--------
+All of the feaures included with this program -- line draw,
+interpolation, animation, etc., are described and in some cases
+illustrated in the online help section.  Before working on your
+first image, we recommend that you go through all of the items in
+this section to get a good idea about what this program can do.
+Note: The animation section is somewhat complicated so in addition
+to moving the help for animation into the help section, a
+demonstration animation is included with this package.  To see this
+demonstration, go to the animation section and choose LOAD and then
+choose MVPPAINT.  Then choose VIEW.
+
+Experienced users will definitely want to print the list of
+available macros.  These macros will greatly speed up the painting
+process if used effectively.
+
+You can also load files by passing the name as a parameter using
+these methods:
+
+MVPPAINT V=PARROT - will load the VGA file called PARROT.VGA
+MVPPAINT G=PARROT - will load the GIF file called PARROT.GIF
+MVPPAINT P=PARROT - will load the PCX file called PARROT.PCX
+MVPPAINT C=BW - will load the palette file called BW.PAL
+MVPPAINT ? - will remind you of the parameter options available.
+
+FILE FORMATS
+------------
+File formats be confusing to many users.  In this document, the term
+"file format" refers to the disk file that can hold an image, a
+palette, or some other entity.  You can discern the nature of a file
+by its extensions.  MVP Paint recognizes the following extensions:
+
+.GIF - Compuserve format - image file
+.PCX - ZSoft format - image file
+.VGA - MVP Paint format - image file (compatible w/Borland .BGI drivers)
+.PAL - MVP Paint format - palette file
+.AF  - MVP Paint format - animation file
+.VGR - MVP Paint format - image file (rotated)
+.BMP - Windows(r) format - image file
+
+THE MENUING SYSTEM
+------------------
+MVP Paint's menuing system is icon-based.  This means that general
+categories of features are represented by icons, or pictures.  For
+example, all file operations are found under the disk icon, all
+palette operations under the palette icon, etc.  To choose an
+option, just click the left mouse button on an icon.  In some cases
+a sub-menu will appear from which you can make a further choice.
+
+THE PALETTE SYSTEM
+------------------
+The color palette allows you to choose the color in which you want
+to perform drawing activities.  Simply point to the color you want
+and click the mouse button.  Since only 64 of the 256 colors are
+visible at a time, use the arrows on the right side of the palette
+to page through the colors.  Also note that in the paint window,
+hitting the right button will set the current color to be what was
+under the mouse.  If MVP Paint is operating in hidden palette mode,
+hitting the right button will return you to normal editing and make
+the palette go away.
+
+IMPORTANT NOTE
+--------------
+MVP Paint allows you to work on fullscreen images.  If the image is
+too large to allow the menu on-screen, you can bring the menu up by
+either hitting the middle button on a three-button mouse, holding
+down the right button and then pressing the left, or hitting the
+space bar.  Now for the tricky part.  If both the menu and the color
+palette are hidden, this action will invoke either depending on the
+current location of the mouse.  In the left-half of the screen, it
+will call up the color palette, in the right-half it will invoke the
+menuing system.  If you are working on an odd-shaped image where one
+of those two is already active, say 160x200, then the hidden palette
+is invoked regardless of your location at the time of calling.  This
+is difficult to describe with words, so give it a whirl and you will
+get the hang of it.
+
+THE PALETTE EDITOR
+------------------
+The palette editor, an extremely useful feature not found in many
+paint programs, allows the user to modify the 256 color palette to
+contain the 256 colors they want out of a possible 262,144 colors!
+In addition to choosing RGB values, other options are available.
+Below is a list of the three main operations to perform in the
+palette editor:
+
+1. RGB Modification: Click on the desired color you want to modify.
+   Then click on the box of the component (red, green or blue) that
+   you want to modify.  Then move the cursor up and down until the
+   component is set where you want it.  Finally, click the left
+
+   button to accept the change, or the right to restore the
+   component to its original value.
+
+2. Quick Set: In the color spectrum area (where all 256 colors
+   are shown), you choose a color by clicking the left button.  The
+   currently chosen color is always outlined by a box.  If you click
+   on a color with the right button, and that color is not the
+   outlined color, the outlined color will be set to have the RGB
+   components of the color you on which you clicked.  This feature
+   gives you the means to move colors around or blank them out.
+
+3. Trending: Trending allows you to choose two colors and have all
+   of the colors in between them become gradual transitions from the
+   first color to the last.  You perform a trend by choosing the
+   first color you want and then clicking on "Start Trend." Next,
+   choose the last color in the trend and click on "End Trend." Now
+   you are ready to click on the "Do Trend" button and watch MVP
+   Paint go to work.  Naturally, the farther apart in the palette x
+   and y are, the more slight the increments.  You can trend between
+   3 colors or all 256!
+
+After finishing with the modify palette screen, click on "Quit" to
+return to the program where you left off.  You must first tell the
+program whether to keep any palette changes made.  Selecting "no"
+will return with the same palette as when you entered modify
+palette.  Choosing "yes" will make the changes active.  IMPORTANT:
+Changes made in the palette are not saved unless you either (1)
+choose the palette menu and save the palette in a (.PAL) file or (2)
+save the palette with the current image.
+
+ANIMATION
+---------
+The animation section can be useful to both programmers who want to
+test images before devoting time for coding and people who just want
+to toy around and have fun.  The basic approach to this animation
+section can be likened to film animation.  With a movie, the scenes
+are just a long series of still pictures called "frames." Because
+image files can get quite large and slow, you wouldn't want to save
+the whole screen over and over just to move a space shuttle across a
+space scene.  For this reason, you choose a background scene and
+then work with all of the elements that will appear within that
+scene.  So, in addition to the background, you can choose up to 5
+different images to appear over the background within any one frame.
+Any one slot within the frame will be referred to as a cell.  Once
+all of the cells within a given frame are displayed, the animation
+routine will delay an amount of time you specify, and then move on
+to the next frame.
+
+Just as you load and save image files, you can do the same with
+animation files.  This does not save image information but rather
+image names, locations, delay times, etc.  An extensive help section
+has been implemented in the animation section of MVP Paint.  For
+this reason, any further comment here would be redundant.
+
+However, one other topic does warrant mention in this document.  In
+Frame 1, and only in Frame 1, you can choose for a cell to have
+continuancy and thus avoid entering an image that is going to have a
+linear path multiple number of times.  Just choose an image as you
+
+would normally, choose its location, and then you will return to the
+regular animation screen.  Now click the right button on the cell
+you want to make continuous.  You will return to the location select
+screen once again.  This time, however, you are not entering the
+location of the cell but rather the x and y offsets to be used in
+each successive frame.  Although this may sound confusing it is
+really rather simple.  For an example load the MVPPAINT.AF animation
+file.  The shuttle has the continuancy feature associated with it.
+To remove this feature from a cell, click the right button a second
+time.  Also, remember that it continues only as long as other
+animation or delay times continue.
+
+PROGRAMMERS' NOTES
+------------------
+Here is an example illustrating the VGA file format.  This example
+considers an image that is x pixels wide and y pixels high.  Assume
+that each of the pixels are identified by the name given to them in
+Table 1. Therefore, the pixel located at x=2, y=3 is called 23.  Now
+look at Table 2 and you can see how each pixels maps to a
+predictable location in the .VGA file!
+
+  Table 1:          | 1   2   3  . . .  X
+                  --+---------------------
+                  1 | 11  21  31 . . .  X1
+                  2 | 12  22  32 . . .  X2
+                  . |
+                  . |
+                  . |
+                  Y | 1Y  2Y  3Y . . .  XY
+
+  Table 2:
+  +----------------------------- Offset  0                 (x dimension) - 1
+  |       +--------------------- Offset  2                 (y dimension) - 1
+  |       |   +----------------- Offset  4                 Pixel 11
+  |       |   |  +-------------- Offset  5                 Pixel 21
+  |       |   |  |         +---- Offset  3+x               Pixel X1
+  |       |   |  |         |     Offset  3+((y-1)*x)+(x-1) Pixel XY
+  |       |   |  |         |                                |
+  |       |   |  |         |                                |
++--+--+--+--+--+--+--+   +--+--+--+--+     +--+--+--+     +--+   +--+--+-->
+|(x-1)|(y-1)|11|21|31|...|X1|12|22|32|.....|1Y|2Y|3Y|.....|XY|...|Palette->
++--+--+--+--+--+--+--+   +--+--+--+--+     +--+--+--+     +--+   +--+--+-->
+                                                                   |
+                                                                   |
+Image Size = ((((x - 1) Div 8) + 1) * 8) * (y-1) + 6  -------------+
+
+VGA File Size = Image Size (if palette is not saved)
+VGA File Size = Image Size + 768 (if palette is saved)
+
+IMPORTANT: MVP Paint does NOT use the Borland VGA256.BGI driver.
+This driver has difficulty displaying full-screen images.  We
+recommend the SVGA256.BGI driver for better results.  If you wish to
+use the VGA256 driver and use Borland putimage routines, you must
+first add 1 to each of the dimensions (x and y).  The best
+alternative is to avoid the .BGI drivers altogether and use the Pod
+Bay Graphics Routines available with the Professional version of
+this program.  These routines are lightning fast and will keep your
+code size to a minimum.
+
+To license source code for the Pod Bay Grapics Library, send $100 to
+MVP Software and request the Pod Bay Graphics Library source code
+and license.  You will receive the source code in C and Pascal, plus
+a license permitting you to use the code in any program -- personal,
+shareware, or retail -- that you develop.  However, the license does
+NOT give you the right to sell or otherwise distribute the source
+files themselves, either in original or modified form.
+
+The Pod Bay Graphics Library source code license is available only
+to purchasers of MVP Paint Professional.
+
+New Features in Version 2.4
+---------------------------
+The following is a list of features added for version 2.4 of MVP
+Paint.
+
+New Features:
+    -Directory traversing when loading files
+    -Fastgraph (c) fonts now loadable
+    -Text/Font Loading now merged, colors changeable within
+    -Merge/Blend option to overlay images with translucency
+    -Brighten/Darken routines
+    -Image Smoothing
+    -Image Contrasting (Sharpen or Blur)
+    -Windows bitmap file support (.BMP)
+    -3D developers file format support (.VGR) (rotated .VGA image)
+    -New menu with more logical function groupings
+    -Parameter passing refined; easier to use
+    -Color fill & replace can use saved images as patterns
+    -Palette matching for merge, fill and replace routines (if
+     applicable)
+    -Tile viewing
+
+Bug Fixes, Routine Changes:
+    -Random pixel replacement fixed
+    -Anti-aliasing lockup fixed
+    -Text color 0 (or too dark) now usable
+    -Outlining in zoomed mode doesn't leave stray boundaries
+    -Phase/Sunburst features always allow up to 99 colors
+
+New Feature Descriptions
+------------------------
+
+Directory traversing when loading files
+---------------------------------------
+Directory names and ".." for changing directories while working in
+MVP Paint.  This feature is available in the file load screens for
+all file types except animation.  For image files, this feature will
+leave you in the directory from which you loaded the file.  This
+will ensure that a future save will be placed in the same directory.
+When loading a PAL file or merging a VGA file into an existing one,
+you can load from other directories, but the current directory
+remains the same.  When loading a CHR file (this is a font file),
+the routine is the same as with palette files except that instead of
+starting in the current directory, MVP Paint first looks in the MVP
+Paint directory.  This encourages you to load font files in the MVP
+directory and not have to copy them anywhere else!  For loading
+
+animation files, you must change to the directory containing the AF
+file and run MVP Paint.
+
+Merge/Blend option to overlay images with translucency
+------------------------------------------------------
+Similar to "Merge File" in that you can use this to merge an image
+into the current work image.  Pixels equal to color 0 in the merged
+image will not be written.  The big difference is that instead of
+using a flat overwrite of pixels from the source to target image, an
+approximation pixel is overwritten instead.  The approximation pixel
+is calculated by the percentage of the background image you chose to
+keep.  The higher the percentage, the more transparent the resulting
+image.  The approximation resorts to the target images' palette.  If
+the source image has no palette, it is assumed that its palette is
+the same as the target.  This feature can be used to create some
+really nice special effects!  Note: as with the Merge feature, this
+feature only allows importation of 320x200 or less .VGA files.
+
+Brighten/Darken routines
+------------------------
+You can brighten or darken the entire image, a rectangular region,
+or a line within the image.  If you select to modify the whole
+image, then the palette is simply modified by the amount you chose.
+For example, if you chose to brighten by 8, all RGB components of
+the palette are incremented by 8. If you choose a rectangular region
+or line, all of the selected pixels are brightened or darkened by
+seeking the closest approximation to the current pixel increased or
+decreased by the appropriate amount.  For example, color 0, which
+usually has RGB components of 0,0,0 will be mapped to the color that
+is the closest fit to RGB components of 8,8,8 (If you chose to
+brighten by 8).
+
+Image Smoothing
+---------------
+You can smooth an image using either one of nine available smoothing
+methods or a customized version.  You can smooth either the whole
+image, the side edges, the top and bottom edges, or all four edges.
+You can also select the edge depth and whether or not pixels wrap
+around to the other side of the image to compute new values.  This
+last feature is of particular use if you are working on tiled
+images.  The main feature of this routine consists of a 9x9 grid
+with coordinate 5x5 being the center.  This central pixel
+corresponds to the pixel to be modified, and the values within the
+grid refer to the 'weights' given each relative pixel in the outcome
+pixel.  Therefore, if you put a 1 in grid location 5,5, and a 0 in
+all other grid locations, there will be no change to your image.
+Try loading several smoothing settings and you will see how various
+weights effect outcome.
+
+Image Contrasting (Sharpen or Blur)
+-----------------------------------
+Instead of blending pixels for a smoother image, which can be done
+with image smoothing, image contrasting, or sharpening, focuses on
+the images palette.  You can choose to make colors within the
+palette more divergent or convergent.  The former will result in a
+crisper, sharper image while the latter will seemingly blur or
+"gray" the image out.  After choosing this option, you must select a
+divergence factor.  Values less than one result in image blurring
+
+while values greater than one will sharpen the image.  You can also
+choose to sharpen all of the Red, Green or Blue components at once
+or separately.  Most often, you will just want to sharpen the image
+in general.  But if, for example, you want to bring out the red in
+the image and make it a little stronger, you can choose to just
+sharpen reds.  Like image smoothing, this feature is most useful
+with digitized images.
+
+Windows bitmap file support (.BMP)
+----------------------------------
+Now all files can be loaded and saved in the Windows 3.0 and 3.1
+uncompressed bitmap (with palette) file format.  EGA bitmaps are not
+importable.
+
+3D developers file format support (.VGR) (rotated .VGA image)
+-------------------------------------------------------------
+If you are developing a 3D game ingine, you might want to avoid the
+process of having to rotate all of your .VGA images at runtime.
+This feature saves and loads images that are the same as .VGA images
+with three exceptions.  First, the image is rotated 90 degrees,
+therefore the top of the new image is now what had been the right
+side.  3D developers, you'll know why this is necessary!  Second,
+for useful purposes, the image size is limited to 200x200.  You
+shouldn't need a 3D bitmapped image larger than that!  Third, no
+palettes are saved with VGR images.
+
+New menu with more logical function groupings
+---------------------------------------------
+To improve the logic of using the menu, and to make room for new
+features, several changes have been made to the menu.  Most
+noticeable will be the new Text and Fx icon buttons.  Other features
+have been regrouped with other routines that are similar in nature.
+
+Parameter passing refined; easier to use
+----------------------------------------
+The parameter passing feature of MVP Paint no longer requires that a
+prefix be used for filenames.  File extensions can be ignored if
+only one parameter is being passed and that is the name of an image.
+MVP Paint will look for the file using the following criteria:
+          VGA-> PCX -> GIF -> BMP -> VGR
+For example, if you type "MVPPAINT ROSE", and there are files called
+ROSE.PCX and ROSE.BMP in the current directory, ROSE.PCX will be
+loaded.  If you type "MVPPAINT ROSE.BMP" then ROSE.BMP will be
+loaded.  To specify palettes, you must use the file extension.  For
+example, "MVPPAINT MYPAL.PAL" will load the palette called MYPAL in
+the current directory.  If you type "MVPPAINT ROSE MYPAL.PAL", MVP
+Paint will load the ROSE.PCX image, and then load the palette next.
+
+Color Fill & Replace can use saved images as patterns
+-----------------------------------------------------
+The fill and replace routines now allow you to specify a saved image
+instead of performing a single color fill.  By choosing "PATTERN"
+instead of "COLOR", you will have the opportunity to choose a .VGA
+file from the disk drive.  After doing so, the routines will perform
+their appropriate functions, but instead of writing a single color,
+they will write pixels from the image that you specified.
+
+Palette matching for merge, fill and replace routines (if applicable)
+---------------------------------------------------------------------
+Often, saved images will have different palettes than the image you
+are currently working on.  If you attempt to merge an image with its
+own palette, MVP Paint will now ask you if you want to try to match
+the incorporated image to the current palette.
+
+Tile viewing
+------------
+When working on wall or floor tiles for game development, you might
+find it useful to see if the edges match up, as well as what the
+overall layout would look like.  This feature lets you view your
+image with tiles of the same image all around it if it is smaller
+than 160 x 100.  For SVGA images, you can view the image in a SVGA
+mode if this is the Professional version of MVP Paint.  This option
+can be called through the menu or invoked using the Alt-V macro.
+

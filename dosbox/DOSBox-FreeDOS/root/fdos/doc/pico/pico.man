@@ -1,0 +1,198 @@
+
+
+
+pico(1)                                                   pico(1)
+
+
+NNaammee
+       pico  -  simple  text editor in the style of the Pine Com-
+       poser
+
+SSyynnttaaxx
+       ppiiccoo [ _o_p_t_i_o_n_s ] [ _f_i_l_e ]
+
+DDeessccrriippttiioonn
+       _P_i_c_o is a simple, display-oriented text  editor  based  on
+       the  Pine message system composer.  As with Pine, commands
+       are displayed at the bottom of the  screen,  and  context-
+       sensitive  help is provided.  As characters are typed they
+       are immediately inserted into the text.
+
+       Editing commands are entered  using  control-key  combina-
+       tions.   As a work-around for communications programs that
+       swallow certain control characters, you can emulate a con-
+       trol key by pressing ESCAPE twice, followed by the desired
+       control character, e.g. "ESC ESC c" would be equivalent to
+       entering  a  ctrl-c.   The editor has five basic features:
+       paragraph justification,  searching,  block  cut/paste,  a
+       spelling checker, and a file browser.
+
+       Paragraph  justification  (or  filling) takes place in the
+       paragraph that contains the cursor, or, if the  cursor  is
+       between  lines, in the paragraph immediately below.  Para-
+       graphs are delimited by blank lines, or by lines beginning
+       with  a space or tab.  Unjustification can be done immedi-
+       ately after justification using the control-U key combina-
+       tion.
+
+       String  searches  are  not  sensitive  to  case.  A search
+       begins at the current cursor position and wraps around the
+       end of the text.  The most recent search string is offered
+       as the default in subsequent searches.
+
+       Blocks of text can be moved, copied or deleted  with  cre-
+       ative  use of the command for mark (ctrl-^), delete (ctrl-
+       k) and undelete (ctrl-u).  The delete command will  remove
+       text  between  the "mark" and the current cursor position,
+       and place it in the "cut" buffer.   The  undelete  command
+       effects a "paste" at the current cursor position.
+
+       The spell checker examines all words in the text.  It then
+       offers, in turn, each misspelled word for correction while
+       highlighting  it  in the text.  Spell checking can be can-
+       celled at any time.  Alternatively, _p_i_c_o  will  substitute
+       for  the  default spell checking routine a routine defined
+       by the SPELL environment variable.  The  replacement  rou-
+       tine should read standard input and write standard output.
+
+       The file browser is offered as  an  option  in  the  "Read
+       File"  and "Write Out" command prompts.  It is intended to
+       help  in  searching  for  specific  files  and  navigating
+
+
+
+                           Version 2.9                          1
+
+
+
+
+
+pico(1)                                                   pico(1)
+
+
+       directory  hierarchies.  Filenames with sizes and names of
+       directories in the current working directory are presented
+       for selection.  The current working directory is displayed
+       on the top line of the display while the list of available
+       commands  takes  up  the  bottom  two.  Several basic file
+       manipulation  functions  are  supported:   file  renaming,
+       copying, and deletion.
+
+       More specific help is available in _p_i_c_o's online help.
+
+OOppttiioonnss
+       ++_n     Causes _p_i_c_o to be started with the cursor located _n
+              lines into the file. (Note: no  space  between  "+"
+              sign and number)
+
+       --dd     Rebind the "delete" key so the character the cursor
+              is on is rubbed out rather than  the  character  to
+              its left.
+
+       --ee     Enable file name completion.
+
+       --ff     Use  function  keys for commands.  This option sup-
+              ported only in conjunction with  UW  Enhanced  NCSA
+              telnet.
+
+       --jj     Enable  "Goto"  command  in the file browser.  This
+              enables the command to  permit  explicitly  telling
+              _p_i_l_o_t which directory to visit.
+
+       --gg     Enable  "Show  Cursor" mode in file browser.  Cause
+              cursor to be positioned before the  current  selec-
+              tion  rather  than  placed at the lower left of the
+              display.
+
+       --kk     Causes "Cut Text" command to remove characters from
+              the  cursor  position to the end of the line rather
+              than remove the entire line.
+
+       --mm     Enable mouse functionality.  This only  works  when
+              _p_i_c_o  is run from within an X Window System "xterm"
+              window.
+
+       --nn_n    The -n_n option enables new mail notification.   The
+              _n argument is optional, and specifies how often, in
+              seconds, your mailbox is checked for new mail.  For
+              example,  -n60  causes  _p_i_c_o  to check for new mail
+              once every minute.  The  default  interval  is  180
+              seconds, while the minimum allowed is 30. (Note: no
+              space between "n" and the number)
+
+       --oo _d_i_r Sets operating directory.  Only files  within  this
+              directory   are  accessible.   Likewise,  the  file
+              browser is limited to the specified directory  sub-
+              tree.
+
+
+
+                           Version 2.9                          2
+
+
+
+
+
+pico(1)                                                   pico(1)
+
+
+       --rr_n    Sets  column  used to limit the "Justify" command's
+              right margin
+
+       --tt     Enable "tool" mode.  Intended for when _p_i_c_o is used
+              as  the  editor  within  other  tools  (e.g.,  Elm,
+              Pnews).  _P_i_c_o will not prompt for save on exit, and
+              will  not  rename the buffer during the "Write Out"
+              command.
+
+       --vv     View the file only, disallowing any editing.
+
+       --ww     Disable word  wrap  (thus  allow  editing  of  long
+              lines).
+
+       --xx     Disable keymenu at the bottom of the screen.
+
+       --zz     Enable ^Z suspension of _p_i_c_o.
+
+       Lastly,   when  a  running  _p_i_c_o  is  disconnected  (i.e.,
+       receives a SIGHUP), _p_i_c_o will save  the  current  work  if
+       needed  before  exiting.   Work is saved under the current
+       filename with ".save" appended.  If the  current  work  is
+       unnamed, it is saved under the filename "pico.save".
+
+
+BBuuggss
+       The  manner  in  which lines longer than the display width
+       are dealt is not immediately obvious.  Lines that continue
+       beyond  the  edge  of  the  display are indicated by a '$'
+       character at the end of the line.  Long lines are scrolled
+       horizontally as the cursor moves through them.
+
+FFiilleess
+       pico.save        Unnamed interrupted work saved here.
+       *.save           Interrupted work on a named file is saved here.
+
+AAuutthhoorrss
+       Michael Seibel <mikes@cac.washington.edu>
+       Laurence Lundblade <lgl@cac.washington.edu>
+       Pico  was  originally derived from MicroEmacs 3.6, by Dave
+       G. Conroy.
+       Pico is a trademark of the University of Washington.
+       Copyright 1989-1996 by the University of Washington.
+
+SSeeee AAllssoo
+       pine(1)
+       Source distribution (part of the Pine Message System):
+          ftp://ftp.cac.washington.edu/mail/pine.tar.Z
+
+       96.02.17
+
+
+
+
+
+
+
+                           Version 2.9                          3
+
+

@@ -1,0 +1,17 @@
+Begin3
+Title:          BSUM
+Version:        1.1a
+Entered-date:   2017-10-14
+Modified-date:  2021-03-18.0
+Description:    computes BSD checksums of files
+Summary:        bsum is a tiny tool (256 bytes!) that computes BSD checksum
+Keywords:       dos
+Author:         Mateusz Viste
+Maintained-by:  Mateusz Viste
+Primary-site:   http://bsum.sourceforge.net
+Original-site:  http://bsum.sourceforge.net
+Alternate-Site: http://sourceforge.net/projects/bsum/
+Platforms:      DOS
+Copying-policy: MIT License
+Changes:        Update to package LSM metadata
+End

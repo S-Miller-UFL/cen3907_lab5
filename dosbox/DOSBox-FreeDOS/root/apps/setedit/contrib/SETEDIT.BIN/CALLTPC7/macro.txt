@@ -1,0 +1,11 @@
+This is the macro I use within the editor to run CallTPC7:
+
+(defmacro 'Pascal Compile current file [Ctrl+F9]'
+ (eval
+  (RunProgram (+ "d:/calltpc7.exe " (strxlt (WhichEditor 0) "/" "\\") ) 1 )
+ )
+)
+
+The macro changes the slashes in the filename of the source file to backslashes.
+Otherwise, the Pascal compiler won't compile the file.
+

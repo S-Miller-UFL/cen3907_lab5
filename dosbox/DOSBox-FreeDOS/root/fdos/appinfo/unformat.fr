@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Restaurer un disque que vous avez accidentellement format‚.
+Keywords:       formater, restaurer, disque dur
+End

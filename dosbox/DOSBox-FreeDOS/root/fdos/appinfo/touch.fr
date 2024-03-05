@@ -1,0 +1,5 @@
+Begin3
+Language:              fr, 850
+Description:           D‚finir la date et l'heure sur un fichier comme avec *nix 'touch'
+Keywords:              touch, horodatage, unix
+End

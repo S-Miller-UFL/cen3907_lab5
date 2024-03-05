@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    DOS/32A est une extension DOS.
+Keywords:       7-zip, 7z, 7za, gestionnaire d'archives
+End

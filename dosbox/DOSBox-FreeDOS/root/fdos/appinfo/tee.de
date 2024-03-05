@@ -1,0 +1,7 @@
+Begin3
+Language:             de, 858
+Description:          Speichert seinen Input in eine Datei und zeigt ihn gleichzeitig auf stdout an.
+Primary-site:         http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/tee.html
+Alternate-site:       http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/util/file/tee/
+Original-site:        http://www.freedos.org/jhall
+End

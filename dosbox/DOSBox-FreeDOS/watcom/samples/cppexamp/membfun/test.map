@@ -1,0 +1,84 @@
+Open Watcom Linker Version 2.0 beta Sep 21 2021 00:30:51 (64-bit)
+Copyright (c) 2002-2021 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Created on:       21/10/24 12:12:46
+Warning! W1008: cannot open kernel32.lib : No such file or directory
+Warning! W1008: cannot open user32.lib : No such file or directory
+Warning! W1008: cannot open gdi32.lib : No such file or directory
+Warning! W1008: cannot open advapi32.lib : No such file or directory
+Warning! W1008: cannot open comdlg32.lib : No such file or directory
+Warning! W1008: cannot open ole32.lib : No such file or directory
+Warning! W1008: cannot open oleaut32.lib : No such file or directory
+Warning! W1008: cannot open winspool.lib : No such file or directory
+Warning! W1008: cannot open shell32.lib : No such file or directory
+Warning! W1008: cannot open uuid.lib : No such file or directory
+Warning! W1008: cannot open comctl32.lib : No such file or directory
+Warning! W1008: cannot open plbx3r.lib : No such file or directory
+Warning! W1008: cannot open clib3r.lib : No such file or directory
+Executable Image: test.exe
+creating a Windows NT character-mode executable
+symbol int __near S::goo( int, int ) removed
+symbol int __near S::woo( char, char ) removed
+symbol void __near use_asm( S __near * ) removed
+symbol void __near use_cpp( S __near * ) removed
+symbol int __near test_s() removed
+symbol FOO removed
+symbol BAR removed
+symbol int __near test_t() removed
+symbol main_ removed
+symbol CfunFoo_ removed
+symbol CfunBar_ removed
+Error! E2028: __CHK is an undefined reference
+Error! E2028: puts_ is an undefined reference
+Error! E2028: _cstart_ is an undefined reference
+Error! E2028: __compiled_under_NT is an undefined reference
+Error! E2028: ___wcpp_4_data_init_fs_root_ is an undefined reference
+
+
+                        +------------+
+                        |   Groups   |
+                        +------------+
+
+Group                           Address              Size
+=====                           =======              ====
+
+DGROUP                          00401000             0000009c
+
+
+
+                        +--------------+
+                        |   Segments   |
+                        +--------------+
+
+Segment                Class          Group          Address         Size
+=======                =====          =====          =======         ====
+
+_TEXT                  CODE           AUTO           00401000        00000000
+CONST                  DATA           DGROUP         00401000        0000008c
+CONST2                 DATA           DGROUP         0040108c        00000000
+_DATA                  DATA           DGROUP         0040108c        00000000
+_BSS                   BSS            DGROUP         0040108c        00000010
+
+
+                        +----------------+
+                        |   Memory Map   |
+                        +----------------+
+
+* = unreferenced symbol
++ = symbol only referenced locally
+
+Address        Symbol
+=======        ======
+
+Module: main.obj(W:\samples\cppexamp\membfun\main.cpp)
+0040108c+      int __near value1
+00401090+      int __near value2
+00401094+      int __near value3
+00401098+      int __near value4
+Warning! W1023: no starting address found, using 00401000
+
+
+                        +--------------------+
+                        |   Libraries Used   |
+                        +--------------------+
+

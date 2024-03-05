@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    Affiche graphiquement la structure de r‚pertoires d'un lecteur ou d'un chemin.
+Platforms:      DOS (TC2, TC++1, TC30, BC31, BC45, MicroC v3*, Pacific C*, Digital Mars),
+End

@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    un mini ‚diteur de texte disponible en 32 et 16 bits
+Keywords:       diteur hexad‚cimal visionneur d‚boguer
+End

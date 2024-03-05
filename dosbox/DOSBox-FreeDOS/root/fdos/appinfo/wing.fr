@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Un jeu de tir dans l'espace similaire … galaga.
+End

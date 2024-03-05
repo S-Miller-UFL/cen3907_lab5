@@ -1,0 +1,16 @@
+Begin3
+Title:          7zdec
+Version:        17.00 beta (rev A)
+Entered-date:   2017-11-13
+Modified-date:  2021-03-18.0
+Description:    unarchiver for .7z files
+Summary:        small, standalone decompressor for 7-Zip archives (with ANSI C sources)
+Keywords:       7z, 7zdec, 7zdecode, archivers
+Author:         Igor Pavlov
+Maintained-by:  Igor Pavlov
+Primary-site:   http://www.sourceforge.net/projects/sevenzip
+Original-site:  http://www.7-zip.org
+Platforms:      DOS, Windows, *nix
+Copying-policy: public domain
+Changes:        Update to package LSM metadata
+End

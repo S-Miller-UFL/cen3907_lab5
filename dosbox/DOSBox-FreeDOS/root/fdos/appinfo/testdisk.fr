@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+New:            *
+Description:    Testdisk v‚rifie la partition/le secteur d'amor‡age des disques; Photorec r‚cupŠre de nombreux types de donn‚es
+End

@@ -1,0 +1,53 @@
+			The Clarkson Speller
+
+The Clarkson Speller is a terminate-and-stay-resident (TSR) program.  It
+provides spelling functions to programs that need them.  One program that
+uses them is Freemacs (see HOWTOGET.IT).
+
+     After you install the speller (by executing SPELLER.COM), it will
+consume 60K of memory.  When you run Freemacs with speller installed,
+you may execute the function auto-spell-mode.  When you press return or
+space, the word to the left of point is spell-checked, and the bell is
+rung if speller thinks the word is mis-spelled.
+
+     If you would like to use the Clarkson Speller in your own programs,
+all you need to do is execute INT 82h with AH set to one of the following
+function codes.  Freemacs lets you execute any of these functions using the
+#(sc) primitive.  You can check to see if Speller is installed by looking
+for the following signature appearing in the few bytes before the address
+pointed to by the interrupt 82h vector.
+
+     Speller may be removed from memory using any of the common TSR management
+utilities, such as Kim Kokkonen's TSR package.  Look for TSRSRCxx or TSRCOMxx.
+At the time of this writing, xx was 28.
+
+	db	'Speller'
+	db	'1'		;bump this if incompatible with previous version.
+	db	'3'		;bump this if upward compatible with previous.
+funcCall:
+;*****************************************************************************
+; The code is entered here when called via INT 82h
+;*****************************************************************************
+;    function codes in AH, ds:si ->null terminated word:
+;	0	spell check word.
+;	1	add word to dictionary.
+;	2	return word count in AX.
+;	3	write speller to disk, ds:si ->fn.
+;	4	clear dictionary.
+;	5	return maximum word count in AX.
+;
+;
+;
+;    function return codes:
+;
+;	 0	call executed successfully (or zero words in dictionary)
+;	-1	used by some programs to indicate speller absent.
+;	-2 	illegal function call was made
+;	-3	word was mis-spelled
+;	-4	word too long to add to dict / spell check
+;	-5	dictionary is full!
+;	-6	disk full, speller not saved
+;
+;		The return code is returned in the AX register.
+;    These are the only return codes currently defined and meaningful.
+;*****************************************************************************

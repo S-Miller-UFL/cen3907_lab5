@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Extension CDROM libre pour DOS
+End

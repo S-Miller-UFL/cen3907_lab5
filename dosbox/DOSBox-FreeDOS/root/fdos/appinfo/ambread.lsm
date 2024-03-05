@@ -1,0 +1,16 @@
+Begin3
+Title:          AMB Reader
+Version:        20201223
+Entered-date:   2021-02-22
+Description:    the Ancient Machine Book format reader
+Summary:        AMB is a reader of eponymous AMB (Ancient Machine Book) files. AMB stands for "Ancient Machine's Book". It is an extremely lightweight file format meant to store any kind of hypertext documentation that may be comfortably viewed even on the most ancient PCs: technical manuals, books, etc. Think of it as a retro equivalent of a *.CHM help file.
+Keywords:       text, doc, reader
+Author:         Mateusz Viste
+Maintained-by:  Mateusz Viste
+Primary-site:
+Alternate-site:
+Original-site:  http://amb.osdn.io
+Platforms:      DOS
+Copying-policy: MIT
+Modified-date: 2021-03-19.0
+end

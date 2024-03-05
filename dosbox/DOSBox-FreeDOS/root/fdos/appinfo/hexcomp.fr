@@ -1,0 +1,5 @@
+Begin3
+Language:       fr, 850
+Description:    compare de fa‡on graphique les fichiers binaires
+Keywords:       hex,comparer
+End

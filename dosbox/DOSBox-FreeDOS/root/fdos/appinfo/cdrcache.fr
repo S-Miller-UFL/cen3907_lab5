@@ -1,0 +1,4 @@
+Begin3
+Language:             fr, 850
+Description:          Tampon CD-ROM, met en m‚moire tampon la lecture pour un lecteur, XMS, 386 ou sup‚rieur
+End

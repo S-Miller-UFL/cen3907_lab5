@@ -1,0 +1,4 @@
+Begin3
+Language:       fr, 850
+Description:    Un petit terminal vt100/ansi pour tous les PC
+End

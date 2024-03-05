@@ -1,0 +1,16 @@
+Begin3
+Title:          e3
+Version:        2.7.1a
+Entered-date:   2015-05-28
+Description:    a mini text editor that comes in both a 32 and 16bit version
+Keywords:       editor
+Author:         Albrecht Kleine
+Maintained-by:  
+Primary-site:   http://gitlab.com/FDOS/editor/e3
+Alternate-site: 
+Original-site:  
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+Modified-date:  2021-03-18.0
+Changes:        Update to package LSM metadata
+End

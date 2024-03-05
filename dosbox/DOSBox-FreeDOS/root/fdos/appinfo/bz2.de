@@ -1,0 +1,7 @@
+Begin3
+Language:       de, 858
+Description:    BZIP2 Komprimierung
+Keywords:       bzip, bunzip, zip, unzip, Archivierung, Kompression, Packer
+Primary-site:   http://www.bzip.org/
+Alternate-site: ftp://ftp.delorie.com/pub/djgpp/current/v2apps/
+End

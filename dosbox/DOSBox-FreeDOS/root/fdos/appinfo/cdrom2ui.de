@@ -1,0 +1,6 @@
+Begin3
+Language:             de, 858
+Description:          Ein kleines Tool fÅr CD-Laufwerke. UnterstÅtzt: eject, close, lock, unlock und reset
+Primary-site:         http://ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/cdrom2ui.html
+Alternate-site:       ftp://ftp.ibiblio.org/pub/micro/pc-stuff/freedos/files/util/system/
+End

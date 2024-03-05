@@ -1,0 +1,8 @@
+Begin3
+Language:       de, 858
+Description:    Zeigt den Ordnerinhalt oder den, eines Pfades grafisch an.
+Primary-site:   http://www.darklogic.org/fdos/projects/tree/
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/tree/
+Original-site:  http://www.dunfield.com
+Platforms:      DOS (TC2, TC++1, TC30, BC31, BC45, MicroC v3*, Pacific C*, Digital Mars),
+End

@@ -1,0 +1,4 @@
+Begin3
+Language:             fr, 850
+Description:          D‚finir, afficher et filtrer les horodatages des fichiers
+End
