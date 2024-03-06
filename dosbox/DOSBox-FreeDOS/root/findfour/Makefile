@@ -1,2 +1,3 @@
-findfour.exe: findfour.cpp
-	wcl -q -e -ml findfour.cpp drivers/drivers.lib
+.ERASE
+findfour.exe: findfour.cpp 
+	wcl -q -ml -xs findfour.cpp drivers/drivers.lib
